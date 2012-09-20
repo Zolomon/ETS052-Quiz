@@ -1,0 +1,475 @@
+Multimedia
+1	INCORRECT		We can divide audio and video services into _______ broad categories.			
+						
+			correct		A)	three
+						
+					B)	two
+						
+					C)	four
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+2	INCORRECT		________ audio/video refers to on-demand requests for compressed audio/video files.			
+						
+					A)	Streaming live
+						
+			correct		B)	Streaming stored
+						
+					C)	Interactive
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+3	INCORRECT		___________ audio/video refers to the broadcasting of radio and TV programs through the Internet.			
+						
+					A)	Interactive
+						
+			correct		B)	Streaming live
+						
+					C)	Streaming stored
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+4	CORRECT		_________ audio/video refers to the use of the Internet for interactive audio/video applications.			
+						
+			correct		A)	Interactive
+						
+					B)	Streaming live
+						
+					C)	Streaming stored
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+5	INCORRECT		According to the Nyquist theorem, we need to sample an analog signal ________times the highest frequency.			
+						
+					A)	three
+						
+			correct		B)	two
+						
+					C)	four
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	CORRECT		In ________ encoding, the differences between the samples are encoded instead of encoding all the sampled values.			
+						
+			correct		A)	predictive
+						
+					B)	perceptual
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	INCORRECT		__________ encoding is based on the science of psychoacoustics, which is the study of how people perceive sound.			
+						
+					A)	Predictive
+						
+			correct		B)	Perceptual
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		____________ is used to compress images.			
+						
+					A)	MPEG
+						
+			correct		B)	JPEG
+						
+					C)	either a or b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	CORRECT		____________ is used to compress video.			
+						
+			correct		A)	MPEG
+						
+					B)	JPEG
+						
+					C)	either a or b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+10	CORRECT		The first phase of JPEG is ___________.			
+						
+			correct		A)	DCT transformation
+						
+					B)	quantization
+						
+					C)	data compression
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	INCORRECT		The second phase of JPEG is ___________.			
+						
+					A)	DCT transformation
+						
+			correct		B)	quantization
+						
+					C)	data compression
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	INCORRECT		The third phase of JPEG is ___________.			
+						
+					A)	DCT transformation
+						
+					B)	quantization
+						
+			correct		C)	data compression
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	INCORRECT		Jitter is introduced in real-time data by the _______________.			
+						
+					A)	error caused during transmission
+						
+			correct		B)	delay between packets
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	INCORRECT		To prevent _________, we can timestamp the packets and separate the arrival time from the playback time.			
+						
+					A)	error
+						
+			correct		B)	jitter
+						
+					C)	either a or b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+15	CORRECT		A ________buffer is required for real-time traffic.			
+						
+			correct		A)	playback
+						
+					B)	reordering
+						
+					C)	sorting
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+16	INCORRECT		A __________on each packet is required for real-time traffic.			
+						
+					A)	timestamp
+						
+					B)	sequence number
+						
+			correct		C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	INCORRECT		Real-time traffic needs the support of ____________.			
+						
+					A)	broadcasting
+						
+			correct		B)	multicasting
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+18	CORRECT		__________ means changing the encoding of a payload to a lower quality to match the bandwidth of the receiving network.			
+						
+			correct		A)	Translation
+						
+					B)	Mixing
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+19	INCORRECT		__________ means combining several streams of traffic into one stream.			
+						
+					A)	Translation
+						
+			correct		B)	Mixing
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	INCORRECT		_________ is not suitable for interactive multimedia traffic because it retransmits packets in case of errors.			
+						
+					A)	UDP
+						
+			correct		B)	TCP
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		__________ is the protocol designed to handle real-time traffic on the Internet.			
+						
+					A)	TCP
+						
+					B)	UDP
+						
+			correct		C)	RTP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	CORRECT		RTP uses a temporary even-numbered _______ port.			
+						
+			correct		A)	UDP
+						
+					B)	TCP
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		___________ is a protocol for controlling the flow and quality of data.			
+						
+					A)	RTP
+						
+			correct		B)	RTCP
+						
+					C)	UDP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	CORRECT		RTCP uses an odd-numbered _______ port number that follows the port number selected for RTP.			
+						
+			correct		A)	UDP
+						
+					B)	TCP
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	INCORRECT		___________ is an application protocol that establishes, manages, and terminates a multimedia session			
+						
+					A)	RIP
+						
+			correct		B)	SIP
+						
+					C)	DIP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		_______ is a standard to allow telephones on the public telephone network to talk to computers connected to the Internet.			
+						
+					A)	SIP
+						
+			correct		B)	H.323
+						
+					C)	Q.991
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		A real-time video performance lasts 10 min. If there is jitter in the system, the viewer spends _______ minutes watching the performance.			
+						
+					A)	less than 10
+						
+			correct		B)	more than 10
+						
+					C)	exactly 10
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	CORRECT		A _______ shows the time a packet was produced relative to the first or previous packet.			
+						
+			correct		A)	timestamp
+						
+					B)	playback buffer
+						
+					C)	sequence number
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		_______ are used to number the packets of a real-time transmission.			
+						
+					A)	Timestamps
+						
+					B)	Playback buffers
+						
+			correct		C)	Sequence numbers
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+30	INCORRECT		In a real-time video conference, data from the server is _______ to the client sites.			
+						
+					A)	unicast
+						
+			correct		B)	multicast
+						
+					C)	broadcast
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+31	INCORRECT		A _______ adds signals from different sources to create a single signal.			
+						
+					A)	timestamp
+						
+					B)	sequence number
+						
+			correct		C)	mixer
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+32	INCORRECT		A _______ changes the format of a high-bandwidth video signal to a lower quality narrow-bandwidth signal.			
+						
+					A)	timestamp
+						
+					B)	sequence number
+						
+			correct		C)	translator
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+33	CORRECT		An RTP packet is encapsulated in _______.			
+						
+			correct		A)	a UDP user datagram
+						
+					B)	a TCP segment
+						
+					C)	an IP datagram
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+34	CORRECT		When there is more than one source, the _______ identifier defines the mixer.			
+						
+			correct		A)	synchronization source
+						
+					B)	contributor
+						
+					C)	timestamp
+						
+					D)	none of the above
+						
+						
+						

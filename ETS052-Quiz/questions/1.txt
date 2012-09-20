@@ -1,0 +1,430 @@
+Introduction
+1	INCORRECT		The _______ is the physical path over which a message travels.			
+						
+					A)	Protocol
+						
+			correct		B)	Medium
+						
+					C)	Signal
+						
+					D)	All the above
+						
+						
+						
+						
+						
+2	INCORRECT		The information to be communicated in a data communications system is the _______.			
+						
+					A)	Medium
+						
+					B)	Protocol
+						
+			correct		C)	Message
+						
+					D)	Transmission
+						
+						
+						
+						
+						
+3	INCORRECT		Frequency of failure and network recovery time after a failure are measures of the _______ of a network.			
+						
+					A)	Performance
+						
+			correct		B)	Reliability
+						
+					C)	Security
+						
+					D)	Feasibility
+						
+						
+						
+						
+						
+4	INCORRECT		An unauthorized user is a network _______ issue.			
+						
+					A)	Performance
+						
+					B)	Reliability
+						
+			correct		C)	Security
+						
+					D)	All the above
+						
+						
+						
+						
+						
+5	INCORRECT		Which topology requires a central controller or hub?			
+						
+					A)	Mesh
+						
+			correct		B)	Star
+						
+					C)	Bus
+						
+					D)	Ring
+						
+						
+						
+						
+						
+6	INCORRECT		Which topology requires a multipoint connection?			
+						
+					A)	Mesh
+						
+					B)	Star
+						
+			correct		C)	Bus
+						
+					D)	Ring
+						
+						
+						
+						
+						
+7	CORRECT		Communication between a computer and a keyboard involves ______________ transmission.			
+						
+			correct		A)	simplex
+						
+					B)	half-duplex
+						
+					C)	full-duplex
+						
+					D)	automatic
+						
+						
+						
+						
+						
+8	CORRECT		A television broadcast is an example of _______ transmission.			
+						
+			correct		A)	simplex
+						
+					B)	half-duplex
+						
+					C)	full-duplex
+						
+					D)	automatic
+						
+						
+						
+						
+						
+9	CORRECT		A _______ connection provides a dedicated link between two devices.			
+						
+			correct		A)	point-to-point
+						
+					B)	multipoint
+						
+					C)	primary
+						
+					D)	secondary
+						
+						
+						
+						
+						
+10	INCORRECT		In a _______ connection, more than two devices can share a single link.			
+						
+					A)	point-to-point
+						
+			correct		B)	multipoint
+						
+					C)	primary
+						
+					D)	secondary
+						
+						
+						
+						
+						
+11	INCORRECT		In _______ transmission, the channel capacity is shared by both communicating devices at all times.			
+						
+					A)	simplex
+						
+					B)	half-duplex
+						
+			correct		C)	full-duplex
+						
+					D)	half-simplex
+						
+						
+						
+						
+						
+12	CORRECT		In the original ARPANET, _______ were directly connected together.			
+						
+			correct		A)	IMPs
+						
+					B)	host computers
+						
+					C)	networks
+						
+					D)	routers
+						
+						
+						
+						
+						
+13	INCORRECT		This was the first network.			
+						
+					A)	CSNET
+						
+					B)	NSFNET
+						
+					C)	ANSNET
+						
+			correct		D)	ARPANET
+						
+						
+						
+						
+						
+14	INCORRECT		Which organization has authority over interstate and international commerce in the communications field?			
+						
+					A)	ITU-T
+						
+					B)	IEEE
+						
+			correct		C)	FCC
+						
+					D)	ISOC
+						
+						
+						
+						
+						
+15	CORRECT		_______ are special-interest groups that quickly test, evaluate, and standardize new technologies.			
+						
+			correct		A)	Forums
+						
+					B)	Regulatory agencies
+						
+					C)	Standards organizations
+						
+					D)	All of the above
+						
+						
+						
+						
+						
+16	CORRECT		Which agency developed standards for physical connection interfaces and electronic signaling specifications?			
+						
+			correct		A)	EIA
+						
+					B)	ITU-T
+						
+					C)	ANSI
+						
+					D)	ISO
+						
+						
+						
+						
+						
+17	CORRECT		_______ is the protocol suite for the current Internet.			
+						
+			correct		A)	TCP/IP
+						
+					B)	NCP
+						
+					C)	UNIX
+						
+					D)	ACM
+						
+						
+						
+						
+						
+18	INCORRECT		_______ refers to the structure or format of the data, meaning the order in which they are presented.			
+						
+					A)	Semantics
+						
+			correct		B)	Syntax
+						
+					C)	Timing
+						
+					D)	All of the above
+						
+						
+						
+						
+						
+19	CORRECT		________ defines how a particular pattern to be interpreted, and what action is to be taken based on that interpretation.			
+						
+			correct		A)	Semantics
+						
+					B)	Syntax
+						
+					C)	Timing
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+20	INCORRECT		_______ refers to two characteristics: when data should be sent and how fast it can be sent.			
+						
+					A)	Semantics
+						
+					B)	Syntax
+						
+			correct		C)	Timing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		Data flow between two devices can occur in a _______ way.			
+						
+					A)	simplex
+						
+					B)	half-duplex
+						
+					C)	full-duplex
+						
+			correct		D)	all of the above
+						
+						
+						
+						
+						
+22	INCORRECT		In a ______ connection, two and only two devices are connected by a dedicated link.			
+						
+					A)	multipoint
+						
+			correct		B)	point-to-point
+						
+					C)	(a) and (b)
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	CORRECT		In a ________ connection, three or more devices share a link.			
+						
+			correct		A)	multipoint
+						
+					B)	point-to-point
+						
+					C)	(a) and (b)
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		______ refers to the physical or logical arrangement of a network.			
+						
+					A)	Data flow
+						
+					B)	Mode of operation
+						
+			correct		C)	Topology
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+25	INCORRECT		Devices may be arranged in a _____ topology.			
+						
+					A)	mesh
+						
+					B)	ring
+						
+					C)	bus
+						
+			correct		D)	all of the above
+						
+						
+						
+						
+						
+26	INCORRECT		A _______ is a data communication system within a building, plant, or campus, or between nearby buildings.			
+						
+					A)	MAN
+						
+			correct		B)	LAN
+						
+					C)	WAN
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		A ______ is a data communication system spanning states, countries, or the whole world.			
+						
+					A)	MAN
+						
+					B)	LAN
+						
+			correct		C)	WAN
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	INCORRECT		________ is a collection of many separate networks.			
+						
+					A)	A WAN
+						
+			correct		B)	An internet
+						
+					C)	a LAN
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+29	INCORRECT		There are ______________ Internet service providers.			
+						
+					A)	local
+						
+					B)	regional
+						
+					C)	national and international
+						
+			correct		D)	all of the above
+						
+						
+						
+						
+						
+30	INCORRECT		A ________ is a set of rules that governs data communication.			
+						
+					A)	forum
+						
+			correct		B)	protocol
+						
+					C)	standard
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+31	INCORRECT		________ is an idea or concept that is a precursor to an Internet standard.			
+						
+					A)	RCF
+						
+			correct		B)	RFC
+						
+					C)	ID
+						
+					D)	none of the above

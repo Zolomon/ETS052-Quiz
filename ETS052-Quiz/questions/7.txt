@@ -1,0 +1,388 @@
+Transmission Media
+1	INCORRECT		Transmission media are usually categorized as _______.			
+						
+					A)	fixed or unfixed
+						
+			correct		B)	guided or unguided
+						
+					C)	determinate or indeterminate
+						
+					D)	metallic or nonmetallic
+						
+						
+						
+						
+						
+2	CORRECT		Transmission media lie below the _______ layer.			
+						
+			correct		A)	physical
+						
+					B)	network
+						
+					C)	transport
+						
+					D)	application
+						
+						
+						
+						
+						
+3	INCORRECT		_______ cable consists of an inner copper core and a second conducting outer sheath.			
+						
+					A)	Twisted-pair
+						
+			correct		B)	Coaxial
+						
+					C)	Fiber-optic
+						
+					D)	Shielded twisted-pair
+						
+						
+						
+						
+						
+4	CORRECT		In fiber optics, the signal is _______ waves.			
+						
+			correct		A)	light
+						
+					B)	radio
+						
+					C)	infrared
+						
+					D)	very low-frequency
+						
+						
+						
+						
+						
+5	INCORRECT		Which of the following primarily uses guided media?			
+						
+					A)	cellular telephone system
+						
+			correct		B)	local telephone system
+						
+					C)	satellite communications
+						
+					D)	radio broadcasting
+						
+						
+						
+						
+						
+6	INCORRECT		Which of the following is not a guided medium?			
+						
+					A)	twisted-pair cable
+						
+					B)	coaxial cable
+						
+					C)	fiber-optic cable
+						
+			correct		D)	atmosphere
+						
+						
+						
+						
+						
+7	INCORRECT		What is the major factor that makes coaxial cable less susceptible to noise than twisted-pair cable?			
+						
+					A)	inner conductor
+						
+					B)	diameter of cable
+						
+			correct		C)	outer conductor
+						
+					D)	insulating material
+						
+						
+						
+						
+						
+8	CORRECT		In an optical fiber, the inner core is _______ the cladding.			
+						
+"img height=""1"" width=""5"" src=""/olcweb/styles/shared/spacer.gif"">"			correct		A)	denser than
+						
+					B)	less dense than
+						
+					C)	the same density as
+						
+					D)	another name for
+						
+						
+						
+						
+						
+9	CORRECT		The inner core of an optical fiber is _______ in composition.			
+						
+			correct		A)	glass or plastic
+						
+					B)	copper
+						
+					C)	bimetallic
+						
+					D)	liquid
+						
+						
+						
+						
+						
+10	CORRECT		When a beam of light travels through media of two different densities, if the angle of incidence is greater than the critical angle, _______ occurs.			
+						
+			correct		A)	reflection
+						
+					B)	refraction
+						
+					C)	incidence
+						
+					D)	criticism
+						
+						
+						
+						
+						
+11	INCORRECT		When the angle of incidence is _______ the critical angle, the light beam bends along the interface.			
+						
+					A)	more than
+						
+					B)	less than
+						
+			correct		C)	equal to
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	CORRECT		Signals with a frequency below 2 MHz use _______ propagation.			
+						
+			correct		A)	ground
+						
+					B)	sky
+						
+					C)	line-of-sight
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	INCORRECT		Signals with a frequency between 2 MHz and 30 MHz use ______ propagation.			
+						
+					A)	ground
+						
+			correct		B)	sky
+						
+					C)	line-of-sight
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	INCORRECT		Signals with a frequency above 30 MHz use _______propagation.			
+						
+					A)	ground
+						
+					B)	sky
+						
+			correct		C)	line-of-sight
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+15	INCORRECT		A parabolic dish antenna is a(n) _______ antenna.			
+						
+					A)	omnidirectional
+						
+					B)	bidirectional
+						
+			correct		C)	unidirectional
+						
+					D)	horn
+						
+						
+						
+						
+						
+16	CORRECT		A(n) _____ medium provides a physical conduit from one device to another.			
+						
+			correct		A)	guided
+						
+					B)	unguided
+						
+					C)	either (a) or (b)
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	INCORRECT		________ cable consists of two insulated copper wires twisted together.			
+						
+					A)	Coaxial
+						
+					B)	Fiber-optic
+						
+			correct		C)	Twisted-pair
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+18	INCORRECT		_______ cable is used for voice and data communications.			
+						
+					A)	Coaxial
+						
+					B)	Fiber-optic
+						
+			correct		C)	Twisted-pair
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+19	CORRECT		__________ consists of a central conductor and a shield.			
+						
+			correct		A)	Coaxial
+						
+					B)	Fiber-optic
+						
+					C)	Twisted-pair
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	INCORRECT		_____ cable can carry signals of higher frequency ranges than _____ cable.			
+						
+					A)	"Twisted-pair; fiber-optic"
+						
+					B)	"Coaxial; fiber-optic"
+						
+			correct		C)	"Coaxial; twisted-pair"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		______ cables are composed of a glass or plastic inner core surrounded by cladding, all encased in an outside jacket.			
+						
+					A)	Coaxial
+						
+			correct		B)	Fiber-optic
+						
+					C)	Twisted-pair
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	INCORRECT		______ cables carry data signals in the form of light.			
+						
+					A)	Coaxial
+						
+			correct		B)	Fiber-optic
+						
+					C)	Twisted-pair
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	CORRECT		In a fiber-optic cable, the signal is propagated along the inner core by _______.			
+						
+			correct		A)	reflection
+						
+					B)	refraction
+						
+					C)	modulation
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		_________ media transport electromagnetic waves without the use of a physical conductor.			
+						
+					A)	Guided
+						
+			correct		B)	Unguided
+						
+					C)	Either (a) or (b)
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+25	CORRECT		Radio waves are _________.			
+						
+			correct		A)	omnidirectional
+						
+					B)	unidirectional
+						
+					C)	bidirectional
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		Microwaves are _________.			
+						
+					A)	omnidirectional
+						
+			correct		B)	unidirectional
+						
+					C)	bidirectional
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		_______ are used for cellular phone, satellite, and wireless LAN communications.			
+						
+					A)	Radio waves
+						
+			correct		B)	Microwaves
+						
+					C)	Infrared waves
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	INCORRECT		________ are used for short-range communications such as those between a PC and a peripheral device.			
+						
+					A)	Radio waves
+						
+					B)	Microwaves
+						
+			correct		C)	Infrared waves
+						
+					D)	none of the above

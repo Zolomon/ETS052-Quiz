@@ -1,0 +1,401 @@
+Network Security
+1	CORRECT		Message ________ means that the sender and the receiver expect privacy.			
+						
+			correct		A)	confidentiality
+						
+					B)	integrity
+						
+					C)	authentication
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+2	INCORRECT		Message_____ means that the data must arrive at the receiver exactly as sent.			
+						
+					A)	confidentiality
+						
+			correct		B)	integrity
+						
+					C)	authentication
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+3	UNANSWERED		Message _______ means that the receiver is ensured that the message is coming from the intended sender, not an imposter.			
+						
+					A)	confidentiality
+						
+					B)	integrity
+						
+					C)	authentication
+						
+					D)	none of the above
+						
+						
+						
+4	INCORRECT		_________ means that a sender must not be able to deny sending a message that he sent.			
+						
+					A)	Confidentiality
+						
+					B)	Integrity
+						
+					C)	Authentication
+						
+			correct		D)	Nonrepudiation
+						
+						
+						
+						
+						
+5	UNANSWERED		________ means to prove the identity of the entity that tries to access the system's resources.			
+						
+					A)	Message authentication
+						
+					B)	Entity authentication
+						
+					C)	Message confidentiality
+						
+					D)	none of the above
+						
+						
+						
+6	CORRECT		A(n) _________ can be used to preserve the integrity of a document or a message.			
+						
+			correct		A)	message digest
+						
+					B)	message summary
+						
+					C)	encrypted message
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	INCORRECT		A(n) ________function creates a message digest out of a message.			
+						
+					A)	encryption
+						
+					B)	decryption
+						
+			correct		C)	hash
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		A hash function must meet ________ criteria.			
+						
+					A)	two
+						
+			correct		B)	three
+						
+					C)	four
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	CORRECT		A _______ message digest is used as an MDC.			
+						
+			correct		A)	keyless
+						
+					B)	keyed
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+10	INCORRECT		To authenticate the data origin, one needs a(n) _______.			
+						
+					A)	MDC
+						
+			correct		B)	MAC
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+11	CORRECT		"A ________ signature is included in the document; a _______ signature is a separate entity."			
+						
+			correct		A)	"conventional; digital"
+						
+					B)	"digital; digital"
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+12	INCORRECT		Digital signature provides ________.			
+						
+					A)	authentication
+						
+					B)	nonrepudiation
+						
+			correct		C)	both (a) and (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+13	INCORRECT		Digital signature cannot provide ________ for the message.			
+						
+					A)	integrity
+						
+			correct		B)	confidentiality
+						
+					C)	nonrepudiation
+						
+					D)	authentication
+						
+						
+						
+						
+						
+14	INCORRECT		If _________ is needed, a cryptosystem must be applied over the scheme.			
+						
+					A)	integrity
+						
+			correct		B)	confidentiality
+						
+					C)	nonrepudiation
+						
+					D)	authentication
+						
+						
+						
+						
+						
+15	INCORRECT		A digital signature needs a(n)_________ system.			
+						
+					A)	symmetric-key
+						
+			correct		B)	asymmetric-key
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+16	INCORRECT		A witness used in entity authentication is ____________.			
+						
+					A)	something known
+						
+					B)	something possessed
+						
+					C)	something inherent
+						
+			correct		D)	all of the above
+						
+						
+						
+						
+						
+17	INCORRECT		In _______, a claimant proves her identity to the verifier by using one of the three kinds of witnesses.			
+						
+					A)	message authentication
+						
+			correct		B)	entity authentication
+						
+					C)	message confidentiality
+						
+					D)	message integrity
+						
+						
+						
+						
+						
+18	INCORRECT		Password-based authentication can be divided into two broad categories: _______ and _______.			
+						
+					A)	"fixed; variable"
+						
+					B)	"time-stamped; fixed"
+						
+			correct		C)	"fixed; one-time"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+19	INCORRECT		In ________ authentication, the claimant proves that she knows a secret without actually sending it.			
+						
+					A)	password-based
+						
+			correct		B)	challenge-response
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+20	INCORRECT		Challenge-response authentication can be done using ________.			
+						
+					A)	symmetric-key ciphers
+						
+					B)	asymmetric-key ciphers
+						
+					C)	keyed-hash functions
+						
+			correct		D)	all of the above
+						
+						
+						
+						
+						
+21	CORRECT		A(n) _____ is a trusted third party that assigns a symmetric key to two parties.			
+						
+			correct		A)	KDC
+						
+					B)	CA
+						
+					C)	KDD
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	INCORRECT		A(n)______ creates a secret key only between a member and the center.			
+						
+					A)	CA
+						
+			correct		B)	KDC
+						
+					C)	KDD
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		The secret key between members needs to be created as a ______ key when two members contact KDC.			
+						
+					A)	public
+						
+			correct		B)	session
+						
+					C)	complimentary
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		__________ is a popular session key creator protocol that requires an authentication server and a ticket-granting server.			
+						
+					A)	KDC
+						
+			correct		B)	Kerberos
+						
+					C)	CA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	INCORRECT		A(n) ________is a federal or state organization that binds a public key to an entity and issues a certificate.			
+						
+					A)	KDC
+						
+					B)	Kerberos
+						
+			correct		C)	CA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		A(n) ______ is a hierarchical system that answers queries about key certification.			
+						
+					A)	KDC
+						
+					B)	PKI
+						
+			correct		C)	CA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	CORRECT		The _______ criterion states that it must be extremely difficult or impossible to create the message if the message digest is given.			
+						
+			correct		A)	one-wayness
+						
+					B)	weak-collision-resistance
+						
+					C)	strong-collision-resistance
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	INCORRECT		The ________ criterion ensures that a message cannot easily be forged.			
+						
+					A)	one-wayness
+						
+			correct		B)	weak-collision-resistance
+						
+					C)	strong-collision-resistance
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		The _______criterion ensures that we cannot find two messages that hash to the same digest.			
+						
+					A)	one-wayness
+						
+					B)	weak-collision-resistance
+						
+			correct		C)	strong-collision-resistance
+						
+					D)	none of the above
+						
+						
+						

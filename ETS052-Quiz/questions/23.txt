@@ -1,0 +1,1063 @@
+Process-to-Process Delivery: UDP, TCP, and SCTP
+1	INCORRECT		One of the responsibilities of the transport layer protocol is to create a ______ communication.			
+						
+					A)	host-to-host
+						
+			correct		B)	process-to-process
+						
+					C)	node-to-node
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+2	INCORRECT		UDP is called a ________________transport protocol.			
+						
+					A)	connectionless, reliable
+						
+					B)	connection-oriented, unreliable
+						
+			correct		C)	connectionless, unreliable
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+3	UNANSWERED		UDP does not add anything to the services of IP except for providing _______ communication.			
+						
+					A)	node-to-node
+						
+					B)	process-to-process
+						
+					C)	host-to-host
+						
+					D)	none of the above
+						
+						
+						
+4	INCORRECT		UDP is an acronym for _______.			
+						
+					A)	User Delivery Protocol
+						
+					B)	User Datagram Procedure
+						
+			correct		C)	User Datagram Protocol
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+5	CORRECT		Although there are several ways to achieve process-to-process communication, the most common is through the __________ paradigm.			
+						
+			correct		A)	client-server
+						
+					B)	client-client
+						
+					C)	server-server
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	INCORRECT		The local host and the remote host are defined using IP addresses. To define the processes, we need second identifiers called ____________.			
+						
+					A)	UDP addresses
+						
+					B)	transport addresses
+						
+			correct		C)	port addresses
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	INCORRECT		The ports ranging from 49,152 to 65,535 can be used as temporary or private port numbers. They are called the ________ ports.			
+						
+					A)	well-known
+						
+					B)	registered
+						
+			correct		C)	dynamic
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	CORRECT		In the sending computer, UDP receives a data unit from the _______ layer.			
+						
+			correct		A)	application
+						
+					B)	transport
+						
+					C)	IP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	INCORRECT		In the sending computer, UDP sends a data unit to the _______ layer.			
+						
+					A)	application
+						
+					B)	transport
+						
+			correct		C)	IP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+10	INCORRECT		UDP and TCP are both _______ layer protocols.			
+						
+					A)	data link
+						
+					B)	network
+						
+			correct		C)	transport
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	CORRECT		Which of the following functions does UDP perform?			
+						
+			correct		A)	process-to-process communication
+						
+					B)	host-to-host communication
+						
+					C)	end-to-end reliable data delivery
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	INCORRECT		When the IP layer of a receiving host receives a datagram, _______.			
+						
+					A)	delivery is complete
+						
+			correct		B)	a transport layer protocol takes over
+						
+					C)	a header is added
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	CORRECT		UDP needs the _______ address to deliver the user datagram to the correct application process.			
+						
+			correct		A)	port
+						
+					B)	application
+						
+					C)	internet
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	UNANSWERED		A port address in UDP is _______bits long.			
+						
+					A)	8
+						
+					B)	16
+						
+					C)	32
+						
+					D)	any of the above
+						
+						
+						
+15	INCORRECT		Which of the following does UDP guarantee?			
+						
+					A)	flow control
+						
+					B)	connection-oriented delivery
+						
+					C)	flow control
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+16	INCORRECT		The source port address on the UDP user datagram header defines _______.			
+						
+					A)	the sending computer
+						
+					B)	the receiving computer
+						
+			correct		C)	the process running on the sending computer
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	INCORRECT		The combination of an IP address and a port number is called a ____________.			
+						
+					A)	transport address
+						
+					B)	network address
+						
+			correct		C)	socket address
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+18	INCORRECT		To use the services of UDP, we need ________ socket addresses.			
+						
+					A)	four
+						
+			correct		B)	two
+						
+					C)	three
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+19	UNANSWERED		UDP packets are called __________.			
+						
+					A)	user datagrams
+						
+					B)	segments
+						
+					C)	frames
+						
+					D)	none of the above
+						
+						
+						
+20	INCORRECT		UDP packets have a fixed-size header of _______ bytes.			
+						
+					A)	16
+						
+			correct		B)	8
+						
+					C)	40
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		UDP packets are encapsulated in ___________.			
+						
+					A)	an Ethernet frame
+						
+					B)	an TCP segment
+						
+			correct		C)	an IP datagram
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	INCORRECT		UDP uses ________ to handle outgoing user datagrams from multiple processes on one host.			
+						
+					A)	flow control
+						
+			correct		B)	multiplexing
+						
+					C)	demultiplexing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		UDP uses _______ to handle incoming user datagrams that go to different processes on the same host.			
+						
+					A)	flow control
+						
+					B)	multiplexing
+						
+			correct		C)	demultiplexing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	CORRECT		TCP is a __________protocol.			
+						
+			correct		A)	stream-oriented
+						
+					B)	message-oriented
+						
+					C)	block-oriented
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	INCORRECT		TCP allows the sending process to deliver data as a _______of bytes and allows the receiving process to obtain data as a _________ of bytes.			
+						
+					A)	"message; message"
+						
+			correct		B)	"stream; stream"
+						
+					C)	"block; block"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		Because the sending and the receiving processes may not write or read data at the same speed, TCP ________.			
+						
+					A)	speeds up the slower process
+						
+					B)	slows down the faster process
+						
+			correct		C)	uses buffers
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	UNANSWERED		TCP groups a number of bytes together into a packet called a ___________.			
+						
+					A)	user datagram
+						
+					B)	segment
+						
+					C)	datagram
+						
+					D)	none of the above
+						
+						
+						
+28	CORRECT		TCP is a ___________ protocol.			
+						
+			correct		A)	connection-oriented
+						
+					B)	connectionless
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		TCP is a(n) _______ transport protocol.			
+						
+					A)	unreliable
+						
+					B)	best-effort delivery
+						
+			correct		C)	reliable
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+30	CORRECT		TCP uses _________________ to check the safe and sound arrival of data.			
+						
+			correct		A)	an acknowledgment mechanism
+						
+					B)	out-of-band signalling
+						
+					C)	the services of another protocol
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+31	INCORRECT		The bytes of data being transferred in each connection are numbered by TCP. The numbering starts with a __________________.			
+						
+					A)	0
+						
+					B)	1
+						
+			correct		C)	randomly generated number
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+32	CORRECT		TCP assigns a sequence number to each segment that is being sent. The sequence number for each segment is the number of the _______ byte carried in that segment.			
+						
+			correct		A)	first
+						
+					B)	last
+						
+					C)	middle
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+33	UNANSWERED		Communication in TCP is ___________.			
+						
+					A)	simplex
+						
+					B)	half-duplex
+						
+					C)	full-duplex
+						
+					D)	none of the above
+						
+						
+						
+34	INCORRECT		The value of the acknowledgment field in a segment defines the number of the ______byte a party expects to receive.			
+						
+					A)	first
+						
+					B)	last
+						
+			correct		C)	next
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+35	UNANSWERED		The acknowledgment number is ________.			
+						
+					A)	independent
+						
+					B)	randomly generated
+						
+					C)	cumulative
+						
+					D)	none of the above
+						
+						
+						
+36	INCORRECT		The value of the window size is determined by _________.			
+						
+					A)	the sender
+						
+			correct		B)	the receiver
+						
+					C)	both the sender and receiver
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+37	INCORRECT		The inclusion of the checksum in the TCP segment is ________.			
+						
+					A)	optional
+						
+			correct		B)	mandatory
+						
+					C)	at the discretion of the application program
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+38	CORRECT		A TCP segment is encapsulated in __________.			
+						
+			correct		A)	an IP datagram
+						
+					B)	an Ethernet frame
+						
+					C)	a UDP user datagram
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+39	INCORRECT		Connection establishment in TCP is called __________ handshaking.			
+						
+					A)	two-way
+						
+					B)	four-way
+						
+					C)	one-way
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+40	INCORRECT		"A SYN segment cannot carry data; it consumes _____ sequence number(s)."			
+						
+					A)	no
+						
+			correct		B)	one
+						
+					C)	two
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+41	INCORRECT		"A SYN + ACK segment cannot carry data; it consumes _____ sequence number(s)."			
+						
+					A)	no
+						
+					B)	three
+						
+					C)	two
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+42	CORRECT		An ACK segment, if carrying no data, consumes ______ sequence number(s).			
+						
+			correct		A)	no
+						
+					B)	one
+						
+					C)	two
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+43	INCORRECT		The connection establishment procedure in TCP is susceptible to a serious security problem called the _________ attack.			
+						
+					A)	ACK flooding
+						
+					B)	FIN flooding
+						
+			correct		C)	SYN flooding
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+44	CORRECT		The SYN flooding attack belongs to a group of security attacks known as a _____ attack.			
+						
+			correct		A)	denial of service
+						
+					B)	replay
+						
+					C)	man-in-the middle
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+45	INCORRECT		The FIN segment consumes ____ sequence numbers if it does not carry data.			
+						
+					A)	two
+						
+					B)	three
+						
+					C)	no
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+46	INCORRECT		The FIN + ACK segment consumes _____ sequence number(s) if it does not carry data.			
+						
+					A)	two
+						
+					B)	three
+						
+			correct		C)	one
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+47	UNANSWERED		In TCP, one end can stop sending data while still receiving data. This is called a ______.			
+						
+					A)	half-close
+						
+					B)	half-open
+						
+					C)	one-way termination
+						
+					D)	none of the above
+						
+						
+						
+48	INCORRECT		A(n) _________ machine is a machine that goes through a limited number of states.			
+						
+					A)	infinite state
+						
+			correct		B)	finite state
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+49	INCORRECT		__________ control regulates the amount of data a source can send before receiving an acknowledgment from the destination.			
+						
+					A)	Error
+						
+			correct		B)	Flow
+						
+					C)	Congestion
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+50	INCORRECT		To accomplish flow control, TCP uses a ___________ window protocol.			
+						
+					A)	limited-size
+						
+			correct		B)	sliding
+						
+					C)	fixed-size
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+51	INCORRECT		TCP sliding windows are __________ oriented.			
+						
+					A)	packet
+						
+					B)	segment
+						
+			correct		C)	byte
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+52	CORRECT		ACK segments consume _______ sequence number(s) and _______ acknowledged.			
+						
+			correct		A)	"no; are not"
+						
+					B)	"one; are not"
+						
+					C)	"no; are"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+53	INCORRECT		TCP delivers _______ out-of-order segments to the process.			
+						
+					A)	all
+						
+			correct		B)	no
+						
+					C)	some
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+54	CORRECT		IP is responsible for _______ communication while TCP is responsible for _______ communication.			
+						
+			correct		A)	"host-to-host; process-to-process"
+						
+					B)	"process-to-process; host-to-host"
+						
+					C)	"process-to-process; network-to-network"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+55	INCORRECT		If a segment carries data along with an acknowledgment, this is called _______.			
+						
+					A)	backpacking
+						
+			correct		B)	piggybacking
+						
+					C)	piggypacking
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+56	INCORRECT		Multiply the header length field by _______ to find the total number of bytes in the TCP header.			
+						
+					A)	2
+						
+			correct		B)	4
+						
+					C)	6
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+57	CORRECT		Urgent data requires the urgent pointer field as well as the URG bit in the _______ field.			
+						
+			correct		A)	control
+						
+					B)	offset
+						
+					C)	sequence number
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+58	INCORRECT		The options field of the TCP header ranges from 0 to _______ bytes.			
+						
+					A)	10
+						
+					B)	20
+						
+			correct		C)	40
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+59	CORRECT		If the ACK value is 200, then byte _______ has been received successfully.			
+						
+			correct		A)	199
+						
+					B)	200
+						
+					C)	201
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+60	INCORRECT		Stream Control Transmission Protocol (SCTP) is a new _____________protocol.			
+						
+					A)	reliable, character-oriented
+						
+			correct		B)	reliable, message-oriented
+						
+					C)	unreliable, message-oriented
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+61	INCORRECT		SCTP allows __________ service in each association.			
+						
+					A)	single stream
+						
+			correct		B)	multistream
+						
+					C)	double stream
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+62	INCORRECT		SCTP association allows _____________ for each end.			
+						
+					A)	only one IP address
+						
+			correct		B)	multiple IP addresses
+						
+					C)	only two IP address
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+63	CORRECT		In SCTP, a data chunk is numbered using ________.			
+						
+			correct		A)	a TSN
+						
+					B)	an SI
+						
+					C)	an SSN
+						
+					D)b>	none of the above
+						
+						
+						
+						
+						
+64	INCORRECT		To distinguish between different streams, SCTP uses ___________.			
+						
+					A)	a TSN
+						
+			correct		B)	an SI
+						
+					C)	an SSN
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+65	INCORRECT		To distinguish between different data chunks belonging to the same stream, SCTP uses ___________.			
+						
+					A)	TSNs
+						
+					B)	SIs
+						
+			correct		C)	SSNs
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+66	INCORRECT		"TCP has ____________; SCTP has ____________."			
+						
+					A)	"packets; segments"
+						
+			correct		B)	"segments; packets"
+						
+					C)	"segments; frames"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+67	INCORRECT		The control information in SCTP is included in the ________.			
+						
+					A)	header control field
+						
+			correct		B)	control chunks
+						
+					C)	data chunks
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+68	INCORRECT		An SCTP packet can carry __________.			
+						
+					A)	only one data chunk
+						
+			correct		B)	several data chunks
+						
+					C)	no data chunks
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+69	INCORRECT		In SCTP, the acknowledgment number and window size are part of each ________.			
+						
+					A)	data chunk
+						
+			correct		B)	control chunk
+						
+					C)	a or b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+70	INCORRECT		There is no need for a header length field in SCTP because ________________.			
+						
+					A)	there are no options in the general header
+						
+					B)	the size of the header is fixed
+						
+			correct		C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+71	INCORRECT		The checksum in SCTP is ________ bits.			
+						
+					A)	16
+						
+			correct		B)	32
+						
+					C)	64
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+72	CORRECT		The association identifier in SCTP is __________________.			
+						
+			correct		A)	a unique verification tag
+						
+					B)	a combination of logical and port addresses
+						
+					C)	either a or b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+73	INCORRECT		In SCTP, control information and data information are carried in _______ chunks.			
+						
+					A)	the same chunk
+						
+			correct		B)	different chunks
+						
+					C)	either a or b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+74	INCORRECT		In SCTP, acknowledgment numbers are used to acknowledge _____________.			
+						
+					A)	both data chunks and control chunks
+						
+					B)	only control chunks
+						
+			correct		C)	only data chunks
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+75	INCORRECT		In an SCTP packet, control chunks come ___________ data chunks.			
+						
+					A)	after
+						
+			correct		B)	before
+						
+					C)	a or b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+76	INCORRECT		In SCTP, ___________ can be carried in a packet that carries an INIT chunk.			
+						
+					A)	only data chunks
+						
+					B)	only control chunks
+						
+			correct		C)	no other chunk
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+77	INCORRECT		A connection in SCTP is called an ____________.			
+						
+					A)	negotiation
+						
+			correct		B)	association
+						
+					C)	transmission
+						
+					D)	none of the above
+						
+						
+						

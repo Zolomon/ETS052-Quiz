@@ -1,0 +1,303 @@
+Network Layer: Internet Protocol
+1	INCORRECT		A best-effort delivery service such as IPv4 includes _______.			
+						
+					A)	error checking
+						
+					B)	error correction
+						
+					C)	datagram acknowledgment
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+2	INCORRECT		In IPv4 header, an HLEN value of decimal 10 means _______.			
+						
+					A)	there are 10 bytes of options
+						
+					B)	there are 40 bytes of options
+						
+					C)	there are 10 bytes in the header
+						
+			correct		D)	there are 40 bytes in the header
+						
+						
+						
+						
+						
+3	CORRECT		In IPv4, what is the value of the total length field in bytes if the header is 28 bytes and the data field is 400 bytes?			
+						
+			correct		A)	428
+						
+					B)	407
+						
+					C)	107
+						
+					D)	427
+						
+						
+						
+						
+						
+4	UNANSWERED		In IPv4, what is the length of the data field given an HLEN value of 12 and total length value of 40,000?			
+						
+					A)	39,988
+						
+					B)	40,012
+						
+					C)	40,048
+						
+					D)	39,952
+						
+						
+						
+5	INCORRECT		An IPv4 datagram is fragmented into three smaller datagrams. Which of the following is true?			
+						
+					A)	Theÿdo not fragmentÿbit is set to 1 for all three datagrams.
+						
+					B)	Theÿmore fragmentÿbit is set to 0 for all three datagrams.
+						
+			correct		C)	The identification field is the same for all three datagrams.
+						
+					D)	The offset field is the same for all three datagrams.
+						
+						
+						
+						
+						
+6	INCORRECT		In IPv4, if the fragment offset has a value of 100, it means that _______.			
+						
+					A)	the datagram has not been fragmented
+						
+					B)	the datagram is 100 bytes in size
+						
+					C)	the first byte of the datagram is byte 100
+						
+			correct		D)	the first byte of the datagram is byte 800
+						
+						
+						
+						
+						
+7	INCORRECT		In IPv4, what is needed to determine the number of the last byte of a fragment?			
+						
+					A)	Identification number
+						
+					B)	Offset number
+						
+					C)	Total length
+						
+			correct		D)	(b) and (c)
+						
+						
+						
+						
+						
+8	CORRECT		The IPv4 header size _______.			
+						
+td>			correct		A)	is 20 to 60 bytes long
+						
+					B)	is always 20 bytes long
+						
+					C)	is always 60 bytes long
+						
+					D)	depends on the MTU
+						
+						
+						
+						
+						
+9	CORRECT		Which of the following is a necessary part of the IPv6 datagram?			
+						
+			correct		A)	Base header
+						
+					B)	Extension header
+						
+					C)	Data packet from the upper layer
+						
+					D)	(a) and (c)
+						
+						
+						
+						
+						
+10	INCORRECT		In IPv6, the _______ field in the base header restricts the lifetime of a datagram.			
+						
+					A)	version
+						
+					B)	next-header
+						
+			correct		C)	hop limit
+						
+					D)	neighbor-advertisement
+						
+						
+						
+						
+						
+11	INCORRECT		The ________ protocol is the transmission mechanism used by the TCP/IP suite.			
+						
+					A)	ARP
+						
+			correct		B)	IP
+						
+					C)	RARP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	INCORRECT		IP is _________ datagram protocol.			
+						
+					A)	an unreliable
+						
+					B)	a connectionless
+						
+			correct		C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	INCORRECT		The term ________ means that IP provides no error checking or tracking. IP assumes the unreliability of the underlying layers and does its best to get a transmission through to its destination, but with no guarantees.			
+						
+					A)	reliable delivery
+						
+					B)	connection-oriented delivery
+						
+			correct		C)	best-effort delivery
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	INCORRECT		In IPv4, an HLEN value of decimal 10 means _______.			
+						
+					A)	there are 10 bytes of options
+						
+					B)	there are 40 bytes of options
+						
+			correct		C)	there are 40 bytes in the header
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+15	UNANSWERED		In IPv4, which field or bit value unambiguously identifies the datagram as a fragment?			
+						
+					A)	Do not fragmentÿbit ? 0
+						
+					B)	More Fragmentÿbit ? 0
+						
+					C)	Fragment offset = 1000
+						
+					D)	none of the above
+						
+						
+						
+16	CORRECT		The IPv4 header size _______.			
+						
+			correct		A)	is 20 to 60 bytes long
+						
+					B)	is 20 bytes long
+						
+					C)	is 60 bytes long
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	INCORRECT		In IPv4, when a datagram is encapsulated in a frame, the total size of the datagram must be less than the _______.			
+						
+					A)	MUT
+						
+					B)	MAT
+						
+			correct		C)	MTU
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+18	INCORRECT		The IPv4 header field formerly known as the service type field is now called the _______ field.			
+						
+					A)	IETF
+						
+					B)	checksum
+						
+			correct		C)	differentiated services
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+19	INCORRECT		In IPv6, options are inserted between the _________ and the ___________ data.			
+						
+					A)	"base header; extension header"
+						
+			correct		B)	"base header; upper-layer data"
+						
+					C)	"base header; frame header"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	CORRECT		IPv6 allows _________ security provisions than IPv4.			
+						
+			correct		A)	more
+						
+					B)	less
+						
+					C)	the same level
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		In IPv6, when a datagram needs to be discarded in a congested network, the decision is based on the _______ field in the base header.			
+						
+					A)	hop limit
+						
+			correct		B)	priority
+						
+					C)	next header
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	CORRECT		In IPv6, the _______ field in the base header and the sender IP address combine to indicate a unique path identifier for a specific flow of data.			
+						
+			correct		A)	flow label
+						
+					B)	next header
+						
+					C)	hop limit
+						
+					D)	destination IP address
+						
+						
+						

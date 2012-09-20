@@ -1,0 +1,629 @@
+Congestion Control and Quality of Service
+1	CORRECT		In ________ we try to avoid traffic congestion.			
+						
+			correct		A)	congestion control
+						
+					B)	quality of service
+						
+					C)	either (a) or (b)
+						
+					D)	both (a) and (b)
+						
+						
+						
+						
+						
+2	INCORRECT		In _________, we try to create an appropriate environment for the traffic.			
+						
+					A)	congestion control
+						
+			correct		B)	quality of service
+						
+					C)	either (a) or (b)
+						
+					D)	both (a) and (b)
+						
+						
+						
+						
+						
+3	INCORRECT		Traffic ______ are qualitative values that represent a data flow.			
+						
+					A)	controls
+						
+			correct		B)	descriptors
+						
+					C)	values
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+4	CORRECT		The _______ defines the maximum data rate of the traffic.			
+						
+			correct		A)	peak data rate
+						
+					B)	maximum burst size
+						
+					C)	effective bandwidth
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+5	INCORRECT		The________ normally refers to the maximum length of time the traffic is generated at the peak rate.			
+						
+					A)	peak data rate
+						
+			correct		B)	maximum burst size
+						
+					C)	effective bandwidth
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	INCORRECT		The ________ is a function of three values: average data rate, peak data rate, and maximum burst size.			
+						
+					A)	peak data rate
+						
+					B)	maximum burst size
+						
+			correct		C)	effective bandwidth
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	CORRECT		A _________ traffic model has a data rate that does not change.			
+						
+			correct		A)	constant bit rate
+						
+					B)	variable bit rate
+						
+					C)	bursty
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		In the ________ traffic model, the rate of the data flow changes in time, with the changes smooth instead of sudden and sharp.			
+						
+					A)	constant bit rate
+						
+			correct		B)	variable bit rate
+						
+					C)	bursty
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	INCORRECT		In the ______ traffic model, the data rate changes suddenly in a very short time.			
+						
+					A)	constant bit rate
+						
+					B)	variable bit rate
+						
+			correct		C)	bursty
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+10	CORRECT		_______ happens in any system that involves waiting.			
+						
+			correct		A)	Congestion
+						
+					B)	Jamming
+						
+					C)	Error
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	INCORRECT		Congestion in a network or internetwork occurs because routers and switches have _______.			
+						
+					A)	tables
+						
+			correct		B)	queues
+						
+					C)	crosspoints
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	INCORRECT		In a network, when the load is much less than the capacity of the network, the delay is _________.			
+						
+					A)	at a maximum
+						
+			correct		B)	at a minimum
+						
+					C)	constant
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	CORRECT		In a network, when the load reaches the network capacity, the delay _______.			
+						
+			correct		A)	increases sharply
+						
+					B)	decreases sharply
+						
+					C)	remains constant
+						
+					D)	cannot be predicted
+						
+						
+						
+						
+						
+14	INCORRECT		In a network, when the load is below the capacity of the network, the throughput ______________.			
+						
+					A)	increases sharply
+						
+			correct		B)	increases proportionally with the load
+						
+					C)	declines sharply
+						
+					D)	declines proportionally with the load
+						
+						
+						
+						
+						
+15	INCORRECT		In a network, after the load reaches the capacity, throughput _______.			
+						
+					A)	increases sharply
+						
+					B)	increases proportionally with the load
+						
+			correct		C)	declines sharply
+						
+					D)	declines proportionally with the load
+						
+						
+						
+						
+						
+16	CORRECT		In ________ congestion control, policies are applied to prevent congestion before it happens.			
+						
+			correct		A)	open-loop
+						
+					B)	closed-loop
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+17	INCORRECT		In _______ congestion control, mechanisms are used to alleviate congestion after it happens.			
+						
+					A)	open-loop
+						
+			correct		B)	closed-loop
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+18	CORRECT		The technique of ________refers to a congestion control mechanism in which a congested node stops receiving data from the immediate upstream node or nodes.			
+						
+			correct		A)	backpressure
+						
+					B)	choke packet
+						
+					C)	implicit signaling
+						
+					D)	explicit signaling
+						
+						
+						
+						
+						
+19	INCORRECT		A ___________ is a packet sent by a node to the source to inform it of congestion.			
+						
+					A)	backpressure
+						
+			correct		B)	choke packet
+						
+					C)	implicit signaling
+						
+					D)	explicit signaling
+						
+						
+						
+						
+						
+20	INCORRECT		In __________, there is no communication between the congested node or nodes and the source. The source guesses that there is a congestion somewhere in the network from other symptoms.			
+						
+					A)	backpressure
+						
+					B)	choke packet
+						
+			correct		C)	implicit signaling
+						
+					D)	explicit signaling
+						
+						
+						
+						
+						
+21	INCORRECT		In the __________ method, the signal is included in the packets that carry data.			
+						
+					A)	backpressure
+						
+					B)	choke packet
+						
+					C)	implicit signaling
+						
+			correct		D)	explicit signaling
+						
+						
+						
+						
+						
+22	CORRECT		In the ________ algorithm of TCP, the size of the congestion window increases exponentially until it reaches a threshold.			
+						
+			correct		A)	slow-start
+						
+					B)	congestion avoidance
+						
+					C)	congestion detection
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		In the _________ algorithm of TCP, the size of the congestion window increases additively until congestion is detected.			
+						
+					A)	slow-start
+						
+			correct		B)	congestion avoidance
+						
+					C)	congestion detection
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		In the ___________ algorithm of TCP, the size of the threshold is dropped to one-half, a multiplicative decrease.			
+						
+					A)	slow-start
+						
+					B)	congestion avoidance
+						
+			correct		C)	congestion detection
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	CORRECT		In Frame Relay, the ________ bit warns the sender of congestion in the network.			
+						
+			correct		A)	BECN
+						
+					B)	FECN
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+26	INCORRECT		In Frame Relay, the ________ bit is used to warn the receiver of congestion in the network.			
+						
+					A)	BECN
+						
+			correct		B)	FECN
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+27	INCORRECT		Traditionally, ________types of characteristics are attributed to a flow.			
+						
+					A)	two
+						
+					B)	three
+						
+			correct		C)	four
+						
+					D)	five
+						
+						
+						
+						
+						
+28	CORRECT		_________ is a characteristic that a flow needs. Lack of it means losing a packet or acknowledgment, which entails retransmission.			
+						
+			correct		A)	Reliability
+						
+					B)	Delay
+						
+					C)	Jitter
+						
+					D)	Bandwidth
+						
+						
+						
+						
+						
+29	INCORRECT		_______ is a flow characteristic that applications can tolerate in different degrees.			
+						
+					A)	Reliability
+						
+			correct		B)	Delay
+						
+					C)	Jitter
+						
+					D)	Bandwidth
+						
+						
+						
+						
+						
+30	INCORRECT		________ is the variation in delay for packets belonging to the same flow.			
+						
+					A)	Reliability
+						
+					B)	Delay
+						
+			correct		C)	Jitter
+						
+					D)	Bandwidth
+						
+						
+						
+						
+						
+31	CORRECT		In ________, queuing packets wait in a buffer (queue) until the node (router or switch) is ready to process them.			
+						
+			correct		A)	FIFO
+						
+					B)	priority
+						
+					C)	weighted fair
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+32	INCORRECT		In ________ queuing, packets are first assigned to a priority class. Each class has its own queue.			
+						
+					A)	FIFO
+						
+			correct		B)	priority
+						
+					C)	weighted fair
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+33	INCORRECT		"In _________ queuing, the packets are assigned to different classes and admitted to different queues. The queues, however, are weighted based on the priority of the queues; higher priority means a higher weight. The system processes packets in each queue in a round-robin fashion with the number of packets selected from each queue based on the corresponding weight."			
+						
+					A)	FIFO
+						
+					B)	priority
+						
+			correct		C)	weighted fair
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+34	CORRECT		In the ______ bucket algorithm, bursty chunks are stored in the bucket and sent out at an average rate.			
+						
+			correct		A)	leaky
+						
+					B)	token
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+35	INCORRECT		The _______ bucket algorithm allows idle hosts to accumulate credit for the future in the form of tokens.			
+						
+					A)	leaky
+						
+			correct		B)	token
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+36	CORRECT		In _________, when a source makes a reservation, it needs to define a flow specification.			
+						
+			correct		A)	Integrated Services
+						
+					B)	Differentiated Services
+						
+					C)	Connectionless
+						
+					D)	Connection-Oriented
+						
+						
+						
+						
+						
+37	INCORRECT		_________ is a class-based QoS model designed for IP.			
+						
+					A)	Integrated Services
+						
+			correct		B)	Differentiated Services
+						
+					C)	Connectionless
+						
+					D)	Connection-Oriented
+						
+						
+						
+						
+						
+38	CORRECT		In Frame Relay, the user can never exceed the_________.			
+						
+			correct		A)	access rate
+						
+					B)	committed burst size
+						
+					C)	committed information rate
+						
+					D)	excess burst size
+						
+						
+						
+						
+						
+39	INCORRECT		In Frame Relay, a ___________ is the maximum number of bits in a predefined time that the network is committed to transfer without discarding any frame or setting the DE bit.			
+						
+					A)	access rate
+						
+			correct		B)	committed burst size
+						
+					C)	committed information rate
+						
+					D)	excess burst size
+						
+						
+						
+						
+						
+40	INCORRECT		In Frame Relay, the _____________ defines an average rate in bits per second.			
+						
+					A)	access rate
+						
+					B)	committed burst size
+						
+			correct		C)	committed information rate
+						
+					D)	excess burst size
+						
+						
+						
+						
+						
+41	INCORRECT		In Frame Relay, the ___________ is the maximum number of bits in excess of Bc that a user can send during a predefined time.			
+						
+					A)	access rate
+						
+					B)	committed burst size
+						
+					C)	committed information rate
+						
+			correct		D)	excess burst size
+						
+						
+						
+						
+						
+42	CORRECT		In ATM, the _________ class is designed for customers who need real-time audio or video services. The service is similar to that provided by a dedicated line such as a T line.			
+						
+			correct		A)	CBR
+						
+					B)	VBR
+						
+					C)	ABR
+						
+					D)	UBR
+						
+						
+						
+						
+						
+43	INCORRECT		In ATM, the _________ class is divided into two subclasses: real-time (VBR-RT) and non-real-time (VBR-NRT). VBR-RT is designed for those users who need real-time services (such as voice and video transmission) and use compression techniques to create a variable bit rate. VBR-NRT is designed for those users who do not need real-time services but use compression techniques to create a variable bit rate.			
+						
+					A)	CBR
+						
+			correct		B)	VBR
+						
+					C)	ABR
+						
+					D)	UBR
+						
+						
+						
+						
+						
+44	INCORRECT		In ATM, the _________ class delivers cells at a minimum rate. If more network capacity is available, this minimum rate can be exceeded.			
+						
+					A)	CBR
+						
+					B)	VBR
+						
+			correct		C)	ABR
+						
+					D)	UBR
+						
+						
+						
+						
+						
+45	INCORRECT		In ATM, the _________ class is a best-effort delivery service that does not guarantee anything.			
+						
+					A)	CBR
+						
+					B)	VBR
+						
+					C)	ABR
+						
+			correct		D)	UBR
+						
+						
+						

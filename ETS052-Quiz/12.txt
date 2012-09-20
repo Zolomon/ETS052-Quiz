@@ -1,0 +1,531 @@
+Multiple Access
+1	CORRECT		In ________ each station sends a frame whenever it has a frame to send.			
+						
+			correct		A)	pure ALOHA
+						
+					B)	slotted ALOHA
+						
+					C)	both (a) and (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+2	INCORRECT		In pure ALOHA, the vulnerable time is ______ the frame transmission time.			
+						
+					A)	the same as
+						
+			correct		B)	two times
+						
+					C)	three times
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+3	INCORRECT		The maximum throughput for pure ALOHA is ________ per cent.			
+						
+					A)	12.2
+						
+			correct		B)	18.4
+						
+					C)	36.8
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+4	INCORRECT		In __________, each station is forced to send only at the beginning of the time slot.			
+						
+					A)	pure ALOHA
+						
+			correct		B)	slotted ALOHA
+						
+					C)	both (a) and (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+5	CORRECT		In slotted ALOHA, the vulnerable time is ______ the frame transmission time.			
+						
+			correct		A)	the same as
+						
+					B)	two times
+						
+					C)	three times
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	INCORRECT		The maximum throughput for pure ALOHA is ________ per cent.			
+						
+					A)	12.2
+						
+					B)	18.4
+						
+			correct		C)	36.8
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	CORRECT		The vulnerable time for CSMA is the ________propagation time.			
+						
+			correct		A)	the same as
+						
+					B)	two times
+						
+					C)	three times
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		In the _________ method, after the station finds the line idle, it sends its frame immediately. If the line is not idle, it continuously senses the line until it finds it idle.			
+						
+					A)	nonpersistent
+						
+			correct		B)	1-persistent
+						
+					C)	p-persistent
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	CORRECT		In the ________method, a station that has a frame to send senses the line. If the line is idle, it sends immediately. If the line is not idle, it waits a random amount of time and then senses the line again.			
+						
+			correct		A)	nonpersistent
+						
+					B)	1-persistent
+						
+					C)	p-persistent
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+10	INCORRECT		In the _______method, after the station finds the line idle it sends or refrain from sending based on the outcome of a random number generator. If the line is busy, it tries again.			
+						
+					A)	nonpersistent
+						
+					B)	1-persistent
+						
+			correct		C)	p-persistent
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	INCORRECT		We have categorized access methods into _______ groups.			
+						
+					A)	two
+						
+			correct		B)	three
+						
+					C)	four
+						
+					D)	five
+						
+						
+						
+						
+						
+12	CORRECT		In ___________ methods, no station is superior to another station and none is assigned the control over another.			
+						
+			correct		A)	random access
+						
+					B)	controlled access
+						
+					C)	channelization
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	INCORRECT		In ______, the chance of collision can be reduced if a station senses the medium before trying to use it.			
+						
+					A)	MA
+						
+			correct		B)	CSMA
+						
+					C)	FDMA
+						
+					D)	CDMA
+						
+						
+						
+						
+						
+14	INCORRECT		________ requires that each station first listen to the medium before sending.			
+						
+					A)	MA
+						
+			correct		B)	CSMA
+						
+					C)	FDMA
+						
+					D)	CDMA
+						
+						
+						
+						
+						
+15	INCORRECT		__________ augments the CSMA algorithm to detect collision.			
+						
+					A)	CSMA/CA
+						
+			correct		B)	CSMA/CD
+						
+					C)	either (a) or (b)
+						
+					D)	both (a) and (b)
+						
+						
+						
+						
+						
+16	INCORRECT		In ________, a station monitors the medium after it sends a frame to see if the transmission was successful. If so, the station is finished. If, however, there is a collision, the frame is sent again.			
+						
+					A)	CSMA/CA
+						
+			correct		B)	CSMA/CD
+						
+					C)	either (a) or (b)
+						
+					D)	both (a) and (b)
+						
+						
+						
+						
+						
+17	CORRECT		To avoid collisions on wireless networks, ________was invented.			
+						
+			correct		A)	CSMA/CA
+						
+					B)	CSMA/CD
+						
+					C)	either (a) or (b)
+						
+					D)	both (a) and (b)
+						
+						
+						
+						
+						
+18	CORRECT		In _______, collisions are avoided through the use of three strategies: the interframe space, the contention window, and acknowledgments.			
+						
+			correct		A)	CSMA/CA
+						
+					B)	CSMA/CD
+						
+					C)	either (a) or (b)
+						
+					D)	both (a) and (b)
+						
+						
+						
+						
+						
+19	INCORRECT		In _______ methods, the stations consult one another to find which station has the right to send.			
+						
+					A)	random access
+						
+			correct		B)	controlled access
+						
+					C)	channelization
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	INCORRECT		In _______ methods, a station cannot send unless it has been authorized by other stations.			
+						
+					A)	random access
+						
+			correct		B)	controlled access
+						
+					C)	channelization
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		We discussed ______ popular controlled-access methods.			
+						
+					A)	two
+						
+			correct		B)	three
+						
+					C)	four
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	CORRECT		In the ________ method, a station needs to make a reservation before sending data. Time is divided into intervals.			
+						
+			correct		A)	reservation
+						
+					B)	polling
+						
+					C)	token passing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	CORRECT		In the _____ method, time is divided into intervals. In each interval, a reservation frame precedes the data frames sent in that interval.			
+						
+			correct		A)	reservation
+						
+					B)	polling
+						
+					C)	token passing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		In the ______ method, all data exchanges must be made through the primary device even when the ultimate destination is a secondary device.			
+						
+					A)	reservation
+						
+			correct		B)	polling
+						
+					C)	token passing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	INCORRECT		"In the _______ method, the primary device controls the link; the secondary devices follow its instructions."			
+						
+					A)	reservation
+						
+			correct		B)	polling
+						
+					C)	token passing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		In the _______ method, the stations in a network are organized in a logical ring.			
+						
+					A)	reservation
+						
+					B)	polling
+						
+			correct		C)	token passing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		In the _______ method, each station has a predecessor and a successor.			
+						
+					A)	reservation
+						
+					B)	polling
+						
+			correct		C)	token passing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	INCORRECT		In the _________ method, a special packet called a ______ circulates through the ring.			
+						
+					A)	reservation: control frame
+						
+					B)	polling: poll request
+						
+			correct		C)	token passing: token
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		_________ is a multiple-access method in which the available bandwidth of a link is shared in time, frequency, or through code, between different stations.			
+						
+					A)	Random access
+						
+					B)	Controlled access
+						
+			correct		C)	Channelization
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+30	INCORRECT		We discussed ________ channelization protocols.			
+						
+					A)	two
+						
+			correct		B)	three
+						
+					C)	four
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+31	CORRECT		In ________, the available bandwidth is divided into frequency bands.			
+						
+			correct		A)	FDMA
+						
+					B)	TDMA
+						
+					C)	CDMA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+32	CORRECT		In ______, each station is allocated a band to send its data. In other words, each band is reserved for a specific station, and it belongs to the station all the time.			
+						
+			correct		A)	FDMA
+						
+					B)	TDMA
+						
+					C)	CDMA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+33	INCORRECT		In _______, the stations share the bandwidth of the channel in time.			
+						
+					A)	FDMA
+						
+			correct		B)	TDMA
+						
+					C)	CDMA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+34	INCORRECT		In _____, each station is allocated a time slot during which it can send data. Each station transmits its data in its assigned time slot.			
+						
+					A)	FDMA
+						
+			correct		B)	TDMA
+						
+					C)	CDMA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+35	INCORRECT		In _____, each station transmits its data in its assigned time slot.			
+						
+					A)	FDMA
+						
+			correct		B)	TDMA
+						
+					C)	CDMA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+36	INCORRECT		In ______, the stations use different codes to achieve multiple access.			
+						
+					A)	FDMA
+						
+					B)	TDMA
+						
+			correct		C)	CDMA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+37	INCORRECT		_______ is based on coding theory and uses sequences of numbers called chips.			
+						
+					A)	FDMA
+						
+					B)	TDMA
+						
+			correct		C)	CDMA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+38	INCORRECT		In _______, the sequences are generated using orthogonal codes such the Walsh tables.			
+						
+					A)	FDMA
+						
+					B)	TDMA
+						
+			correct		C)	CDMA
+						
+					D)	none of the above
+						
+						
+						

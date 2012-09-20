@@ -1,0 +1,475 @@
+Error Detection and Correction
+1	INCORRECT		Which error detection method uses one's complement arithmetic?			
+						
+					A)	Simple parity check
+						
+					B)	Two-dimensional parity check
+						
+					C)	CRC
+						
+			correct		D)	Checksum
+						
+						
+						
+						
+						
+2	CORRECT		Which error detection method consists of just one redundant bit per data unit?			
+						
+			correct		A)	Simple parity check
+						
+					B)	Two-dimensional parity check
+						
+					C)	CRC
+						
+					D)	Checksum
+						
+						
+						
+						
+						
+3	INCORRECT		In cyclic redundancy checking, what is the CRC?			
+						
+					A)	The divisor
+						
+					B)	The quotient
+						
+					C)	The dividend
+						
+			correct		D)	The remainder
+						
+						
+						
+						
+						
+4	INCORRECT		In cyclic redundancy checking, the divisor is _______ the CRC.			
+						
+					A)	The same size as
+						
+					B)	one bit less than
+						
+			correct		C)	one bit more than
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+5	INCORRECT		A burst error means that two or more bits in the data unit have changed.			
+						
+					A)	double-bit
+						
+			correct		B)	burst
+						
+					C)	single-bit
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	INCORRECT		In ________ error correction, the receiver corrects errors without requesting retransmission.			
+						
+					A)	backward
+						
+					B)	onward
+						
+			correct		C)	forward
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	INCORRECT		In ________ error correction, the receiver asks the sender to send the data again.			
+						
+					A)	backward
+						
+			correct		B)	retransmission
+						
+					C)	forward
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		We can divide coding schemes into two broad categories: ________ and ______coding.			
+						
+					A)	"block; linear"
+						
+					B)	"linear; nonlinear"
+						
+			correct		C)	"block; convolution"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	INCORRECT		In modulo-2 arithmetic, __________ give the same results.			
+						
+					A)	addition and multiplication
+						
+					B)	addition and division
+						
+			correct		C)	addition and subtraction
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+10	CORRECT		In modulo-2 arithmetic, we use the ______ operation for both addition and subtraction.			
+						
+			correct		A)	XOR
+						
+					B)	OR
+						
+					C)	AND
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	INCORRECT		In _____ coding, we divide our message into blocks, each ofÿkÿbits, called ___.			
+						
+					A)	"block; blockwords"
+						
+					B)	"linear; datawords"
+						
+			correct		C)	"block; datawords"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	INCORRECT		We addÿrÿredundant bits to each block to make the lengthÿnÿ=ÿkÿ+ÿr. The resultingÿn-bit blocks are called _________.			
+						
+					A)	datawords
+						
+					B)	blockwords
+						
+			correct		C)	codewords
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	INCORRECT		The ________ between two words is the number of differences between corresponding bits.			
+						
+					A)	Hamming code
+						
+			correct		B)	Hamming distance
+						
+					C)	Hamming rule
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	INCORRECT		To guarantee the detection of up to 5 errors in all cases, the minimum Hamming distance in a block code must be _______.			
+						
+					A)	5
+						
+			correct		B)	6
+						
+					C)	11
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+15	INCORRECT		To guarantee correction of up to 5 errors in all cases, the minimum Hamming distance in a block code must be ________.			
+						
+					A)	5
+						
+					B)	6
+						
+			correct		C)	11
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+16	CORRECT		In a linear block code, the _______ of any two valid codewords creates another valid codeword.			
+						
+			correct		A)	XORing
+						
+					B)	ORing
+						
+					C)	ANDing
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	INCORRECT		A simple parity-check code can detect __________ errors.			
+						
+					A)	an even-number of
+						
+					B)	two
+						
+					C)	no errors
+						
+			correct		D)	an odd-number of
+						
+						
+						
+						
+						
+18	INCORRECT		_______codes are special linear block codes with one extra property. If a codeword is rotated, the result is another codeword.			
+						
+					A)	Non-linear
+						
+					B)	Convolution
+						
+			correct		C)	Cyclic
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+19	CORRECT		The _____of errors is more difficult than the ______.			
+						
+			correct		A)	"correction; detection"
+						
+					B)	"detection; correction"
+						
+					C)	"creation; correction"
+						
+					D)	"creation; detection"
+						
+						
+						
+						
+						
+20	INCORRECT		In modulo-11 arithmetic, we use only the integers in the range ______, inclusive.			
+						
+					A)	1 to 10
+						
+					B)	1 to 11
+						
+			correct		C)	0 to 10
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		In modulo-2 arithmetic, we use only ______.			
+						
+					A)	1 and 2
+						
+					B)	0 and 2
+						
+			correct		C)	0 and 1
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	INCORRECT		Adding 1 and 1 in modulo-2 arithmetic results in _________.			
+						
+					A)	1
+						
+					B)	2
+						
+			correct		C)	0
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		In block coding, if k =2 and n =3, we have _______ invalid codewords.			
+						
+					A)	8
+						
+			correct		B)	4
+						
+					C)	2
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		The Hamming distance between equal codewords is _________.			
+						
+					A)	1
+						
+					B)	n
+						
+			correct		C)	0
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	CORRECT		The Hamming distance between 100 and 001 is ________.			
+						
+			correct		A)	2
+						
+					B)	0
+						
+					C)	1
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		In block coding, if n = 5, the maximum Hamming distance between two codewords is ________.			
+						
+					A)	2
+						
+					B)	3
+						
+			correct		C)	5
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	CORRECT		If the Hamming distance between a dataword and the corresponding codeword is three, there are _____ bits in error.			
+						
+			correct		A)	3
+						
+					B)	4
+						
+					C)	5
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	INCORRECT		The _______ of a polynomial is the highest power in the polynomial.			
+						
+					A)	range
+						
+			correct		B)	degree
+						
+					C)	power
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		The divisor in a cyclic code is normally called the _________.			
+						
+					A)	degree
+						
+			correct		B)	generator
+						
+					C)	redundancy
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+30	INCORRECT		A generator that contains a factor of ____ can detect all odd-numbered errors.			
+						
+					A)	x
+						
+			correct		B)	x + 1
+						
+					C)	1
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+31	INCORRECT		Checksums use _________ arithmetic.			
+						
+					A)	two's complement arithmetic
+						
+			correct		B)	one's complement arithmetic
+						
+					C)	either (a) or (b)
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+32	INCORRECT		In one's complement arithmetic, if positive 7 is 0111, then negative 7 is ________.			
+						
+					A)	1111
+						
+					B)	1101
+						
+			correct		C)	1000
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+33	INCORRECT		The checksum of 1111 and 1111 is _________.			
+						
+					A)	1111
+						
+			correct		B)	0
+						
+					C)	1110
+						
+					D)	111
+						
+						
+						
+						
+						
+34	CORRECT		The checksum of 0000 and 0000 is __________.			
+						
+			correct		A)	1111
+						
+					B)	0
+						
+					C)	1110
+						
+					D)	111
+						
+						
+						

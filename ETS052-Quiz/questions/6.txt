@@ -1,0 +1,347 @@
+Bandwidth Utilization: Multiplexing and Spreading
+1	INCORRECT		The sharing of a medium and its link by two or more devices is called _______.			
+						
+					A)	modulation
+						
+					B)	encoding
+						
+					C)	line discipline
+						
+			correct		D)	multiplexing
+						
+						
+						
+						
+						
+2	INCORRECT		Which multiplexing technique transmits analog signals?			
+						
+					A)	FDM
+						
+					B)	TDM
+						
+					C)	WDM
+						
+			correct		D)	(a) and (c)
+						
+						
+						
+						
+						
+3	INCORRECT		Which multiplexing technique transmits digital signals?			
+						
+					A)	FDM
+						
+			correct		B)	TDM
+						
+					C)	WDM
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+4	CORRECT		Which multiplexing technique shifts each signal to a different carrier frequency?			
+						
+			correct		A)	FDM
+						
+					B)	TDM
+						
+					C)	Both (a) and (b)
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+5	CORRECT		In synchronous TDM, forÿnÿsignal sources of the same data rate, each frame contains _______ slots.			
+						
+			correct		A)	n
+						
+					B)	nÿ+ 1
+						
+					C)	nÿ- 1
+						
+					D)	0 toÿn
+						
+						
+						
+						
+						
+6	CORRECT		In TDM, the transmission rate of the multiplexed path is usually _______ the sum of the transmission rates of the signal sources.			
+						
+			correct		A)	greater than
+						
+					B)	less than
+						
+					C)	equal to
+						
+					D)	not related to
+						
+						
+						
+						
+						
+7	INCORRECT		Which multiplexing technique involves signals composed of light beams?			
+						
+					A)	FDM
+						
+					B)	TDM
+						
+			correct		C)	WDM
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		_________ utilization is the use of available bandwidth to achieve specific goals.			
+						
+					A)	Frequency
+						
+			correct		B)	Bandwidth
+						
+					C)	Amplitude
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+9	CORRECT		"________ can be achieved by using multiplexing; ______ can be achieved by using spreading."			
+						
+			correct		A)	"Efficiency; privacy and antijamming"
+						
+					B)	"Privacy and antijamming; efficiency"
+						
+					C)	"Privacy and efficiency; antijamming"
+						
+					D)	"Efficiency and antijamming; privacy"
+						
+						
+						
+						
+						
+10	INCORRECT		________ is the set of techniques that allows the simultaneous transmission of multiple signals across a single data link.			
+						
+					A)	Demodulating
+						
+			correct		B)	Multiplexing
+						
+					C)	Compressing
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+11	INCORRECT		In a multiplexed system, __ lines share the bandwidth of ____ link.			
+						
+					A)	"1;ÿn"
+						
+					B)	"1; 1"
+						
+			correct		C)	"n; 1"
+						
+					D)	"n;ÿn"
+						
+						
+						
+						
+						
+12	CORRECT		The word ______ refers to the portion of a _______ that carries a transmission.			
+						
+			correct		A)	"channel; link"
+						
+					B)	"link; channel"
+						
+					C)	"line; channel"
+						
+					D)	"line; link"
+						
+						
+						
+						
+						
+13	INCORRECT		______ can be applied when the bandwidth of a link (in hertz) is greater than the combined bandwidths of the signals to be transmitted.			
+						
+					A)	TDM
+						
+			correct		B)	FDM
+						
+					C)	Both (a) or (b)
+						
+					D)	Neither (a) or (b)
+						
+						
+						
+						
+						
+14	CORRECT		FSM is an _________technique.			
+						
+			correct		A)	analog
+						
+					B)	digital
+						
+					C)	either (a) or (b)
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+15	INCORRECT		____ is designed to use the high bandwidth capability of fiber-optic cable.			
+						
+					A)	FDM
+						
+					B)	TDM
+						
+			correct		C)	WDM
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+16	INCORRECT		______ is an analog multiplexing technique to combine optical signals.			
+						
+					A)	FDM
+						
+					B)	TDM
+						
+			correct		C)	WDM
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+17	INCORRECT		_____ is a digital process that allows several connections to share the high bandwidth of a link.			
+						
+					A)	FDM
+						
+			correct		B)	TDM
+						
+					C)	WDM
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+18	INCORRECT		_____ is a digital multiplexing technique for combining several low-rate channels into one high-rate one.			
+						
+					A)	FDM
+						
+			correct		B)	TDM
+						
+					C)	WDM
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+19	INCORRECT		We can divide ____ into two different schemes: synchronous or statistical.			
+						
+					A)	FDM
+						
+			correct		B)	TDM
+						
+					C)	WDM
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	CORRECT		In ________ TDM, each input connection has an allotment in the output even if it is not sending data.			
+						
+			correct		A)	synchronous
+						
+					B)	statistical
+						
+					C)	isochronous
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		In ________ TDM, slots are dynamically allocated to improve bandwidth efficiency.			
+						
+					A)	synchronous
+						
+			correct		B)	statistical
+						
+					C)	isochronous
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	CORRECT		In ________, we combine signals from different sources to fit into a larger bandwidth.			
+						
+			correct		A)	spread spectrum
+						
+					B)	line coding
+						
+					C)	block coding
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	CORRECT		_______ is designed to be used in wireless applications in which stations must be able to share the medium without interception by an eavesdropper and without being subject to jamming from a malicious intruder.			
+						
+			correct		A)	Spread spectrum
+						
+					B)	Multiplexing
+						
+					C)	Modulation
+						
+					D)	None of the above.
+						
+						
+						
+						
+						
+24	INCORRECT		"The _______ technique uses M different carrier frequencies that are modulated by the source signal. At one moment, the sign modulates one carrier frequency; at the next moment, the signal modulates another carrier frequency."			
+						
+					A)	FDM
+						
+					B)	DSSS
+						
+			correct		C)	FHSS
+						
+					D)	TDM
+						
+						
+						
+						
+						
+25	INCORRECT		The ______ technique expands the bandwidth of a signal by replacing each data bit withÿnÿbits.			
+						
+					A)	FDM
+						
+			correct		B)	DSSS
+						
+					C)	FHSS
+						
+					D)	TDM
+						

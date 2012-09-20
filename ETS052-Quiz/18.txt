@@ -1,0 +1,475 @@
+Virtual-Circuit Networks: Frame Relay and ATM
+1	INCORRECT		________ is a virtual-circuit wide-area network that was designed in response to demands for a new type of WAN in the late 1980s and early 1990s.			
+						
+					A)	X.25
+						
+			correct		B)	Frame Relay
+						
+					C)	ATM
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+2	INCORRECT		Frame Relay provides ________.			
+						
+					A)	PVCs
+						
+					B)	SVCs
+						
+			correct		C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+3	INCORRECT		VCIs in Frame Relay are called ______.			
+						
+					A)	PVC
+						
+					B)	SVC
+						
+			correct		C)	DLCIs
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+4	CORRECT		In Frame Relay, when a _____ is selected, the corresponding table entry is recorded for all switches by the administrator			
+						
+			correct		A)	PVC
+						
+					B)	SVC
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+5	INCORRECT		In Frame Relay, when. ______ is selected, it requires establishing and terminating phases			
+						
+					A)	a PVC
+						
+			correct		B)	an SVC
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+6	INCORRECT		Frame Relay has _______.			
+						
+					A)	only the physical layer
+						
+					B)	only the data link
+						
+			correct		C)	the physical and data link layers
+						
+					D)	the physical, data link, and network layers
+						
+						
+						
+						
+						
+7	INCORRECT		At the data link layer, Frame Relay uses a protocol that supports _____control.			
+						
+					A)	flow
+						
+					B)	error
+						
+					C)	either (a) or (b)
+						
+			correct		D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+8	INCORRECT		In Frame Relay, an address can be ________ bytes.			
+						
+					A)	only 2
+						
+					B)	2 to 3
+						
+			correct		C)	2 to 4
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	INCORRECT		"In Frame Relay, the EA field defines the number of bytes; it is _____ in the last byte of the address."			
+						
+					A)	0
+						
+			correct		B)	1
+						
+					C)	2
+						
+					D)	3
+						
+						
+						
+						
+						
+10	INCORRECT		To handle frames arriving from other protocols, Frame Relay uses a device called a _________.			
+						
+					A)	VOFR
+						
+			correct		B)	FRAD
+						
+					C)	MUX
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	CORRECT		Frame Relay networks offer an option called ______________ that sends voice through the network.			
+						
+			correct		A)	VOFR
+						
+					B)	FRAD
+						
+					C)	MUX
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	INCORRECT		________ is the cell relay protocol designed by the corresponding Forum and adopted by the ITU-T.			
+						
+					A)	X.25
+						
+					B)	Frame Relay
+						
+			correct		C)	ATM
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	INCORRECT		A _______ is defined as a small, fixed-size block of information.			
+						
+					A)	frame
+						
+					B)	packet
+						
+			correct		C)	cell
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	INCORRECT		In ATM, a virtual connection is defined by _________.			
+						
+					A)	VPI
+						
+					B)	VCI
+						
+					C)	DLCI
+						
+			correct		D)	a combination of (a) and (b)
+						
+						
+						
+						
+						
+15	INCORRECT		The ATM standard defines ______ layers.			
+						
+					A)	two
+						
+			correct		B)	three
+						
+					C)	four
+						
+					D)	five
+						
+						
+						
+						
+						
+16	CORRECT		The VPI of a UNI is _______ bits in length.			
+						
+			correct		A)	8
+						
+					B)	12
+						
+					C)	16
+						
+					D)	24
+						
+						
+						
+						
+						
+17	INCORRECT		The VPI of an NNI is _______ bits in length.			
+						
+					A)	8
+						
+			correct		B)	12
+						
+					C)	16
+						
+					D)	24
+						
+						
+						
+						
+						
+18	INCORRECT		The ATM data packet is a cell composed of ______ bytes.			
+						
+					A)	40
+						
+					B)	50
+						
+					C)	52
+						
+			correct		D)	53
+						
+						
+						
+						
+						
+19	INCORRECT		______ eliminates the varying delay times associated with different-size packets.			
+						
+					A)	X.25
+						
+					B)	Frame Relay
+						
+			correct		C)	ATM
+						
+					D)	all of the above
+						
+						
+						
+						
+						
+20	CORRECT		A(n) ______ is the interface between a user and an ATM switch.			
+						
+			correct		A)	UNI
+						
+					B)	NNI
+						
+					C)	NNN
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+21	INCORRECT		_________ is the interface between two ATM switches.			
+						
+					A)	UNI
+						
+			correct		B)	NNI
+						
+					C)	NNN
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	INCORRECT		In ATM, connection between two endpoints is accomplished through _______.			
+						
+					A)	TPs
+						
+					B)	VPs
+						
+					C)	VCs
+						
+			correct		D)	all of the above
+						
+						
+						
+						
+						
+23	INCORRECT		In ATM, the _______layer accepts transmissions from upper-layer services and maps them into ATM cells.			
+						
+					A)	physical
+						
+					B)	ATM
+						
+			correct		C)	AAL
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		In ATM, the ______ layer provides routing, traffic management, switching, and multiplexing services.			
+						
+					A)	physical
+						
+			correct		B)	ATM
+						
+					C)	AAL
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	CORRECT		In ATM, the _____ layer defines the transmission medium, bit transmission, encoding, and electrical-to-optical transformation.			
+						
+			correct		A)	physical
+						
+					B)	ATM layer
+						
+					C)	AAL
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	CORRECT		The AAL is divided into _______ sublayers.			
+						
+			correct		A)	two
+						
+					B)	three
+						
+					C)	four
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	CORRECT		In ATM, ______ is for constant-bit-rate data.			
+						
+			correct		A)	AAL1
+						
+					B)	AAL2
+						
+					C)	AAL3/4
+						
+					D)	AAL5
+						
+						
+						
+						
+						
+28	INCORRECT		In ATM, _______is for short packets.			
+						
+					A)	AAL1
+						
+			correct		B)	AAL2
+						
+					C)	AAL3/4
+						
+					D)	AAL5
+						
+						
+						
+						
+						
+29	INCORRECT		In ATM, _____ is for conventional packet switching (virtual-circuit approach or datagram approach).			
+						
+					A)	AAL1
+						
+					B)	AAL2
+						
+			correct		C)	AAL3/4
+						
+					D)	AAL5
+						
+						
+						
+						
+						
+30	INCORRECT		In ATM, ______ is for packets requiring no sequencing and no error control mechanism.			
+						
+					A)	AAL1
+						
+					B)	AAL2
+						
+					C)	AAL3/4
+						
+			correct		D)	AAL5
+						
+						
+						
+						
+						
+31	INCORRECT		________ technology can be adapted for use in a LAN (ATM LAN).			
+						
+					A)	X.25
+						
+					B)	Frame Relay
+						
+			correct		C)	ATM
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+32	CORRECT		In a _____ ATM LAN, an ATM switch connects stations.			
+						
+			correct		A)	pure
+						
+					B)	legacy
+						
+					C)	mixed architecture
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+33	INCORRECT		In a _______ ATM LAN, the backbone that connects traditional LANs uses ATM technology.			
+						
+					A)	pure
+						
+			correct		B)	legacy
+						
+					C)	mixed architecture
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+34	INCORRECT		A _______ ATM LAN combines features of a pure ATM LAN and a legacy ATM LAN.			
+						
+					A)	pure
+						
+					B)	legacy
+						
+			correct		C)	mixed architecture
+						
+					D)	none of the above
+						
+						
+						

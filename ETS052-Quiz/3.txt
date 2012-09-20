@@ -1,0 +1,472 @@
+Data and Signals
+1	INCORRECT		Before data can be transmitted, they must be transformed to ________.			
+						
+					A)	periodic signals
+						
+			correct		B)	electromagnetic signals
+						
+					C)	aperiodic signals
+						
+					D)	low-frequency sine waves
+						
+						
+						
+						
+						
+2	INCORRECT		A periodic signal completes one cycle in 0.001 s. What is the frequency?			
+						
+					A)	1 Hz
+						
+					B)	100 Hz
+						
+			correct		C)	1 KHz
+						
+					D)	1 MHz
+						
+						
+						
+						
+						
+3	INCORRECT		In a frequency-domain plot, the horizontal axis measures the ________.			
+						
+					A)	peak amplitude
+						
+			correct		B)	frequency
+						
+					C)	phase
+						
+					D)	slope
+						
+						
+						
+						
+						
+4	INCORRECT		In a time-domain plot, the horizontal axis is a measure of ________.			
+						
+					A)	signal amplitude
+						
+					B)	frequency
+						
+					C)	phase
+						
+			correct		D)	time
+						
+						
+						
+						
+						
+5	INCORRECT		If the bandwidth of a signal is 5 KHz and the lowest frequency is 52 KHz, what is the highest frequency?			
+						
+					A)	5 KHz
+						
+					B)	10 KHz
+						
+					C)	47 KHz
+						
+			correct		D)	57 KHz
+						
+						
+						
+						
+						
+6	INCORRECT		What is the bandwidth of a signal that ranges from 1 MHz to 4 MHz?			
+						
+					A)	4 MHz
+						
+					B)	1 KHz
+						
+			correct		C)	3 MHz
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	CORRECT		As frequency increases, the period ________.			
+						
+			correct		A)	decreases
+						
+					B)	increases
+						
+					C)	remains the same
+						
+					D)	doubles
+						
+						
+						
+						
+						
+8	INCORRECT		Given two sine wavesÿAÿandÿB, if the frequency ofÿAÿis twice that ofÿB, then the period ofÿBÿis ________ that ofÿA.			
+						
+					A)	one-half
+						
+			correct		B)	twice
+						
+					C)	the same as
+						
+					D)	indeterminate from
+						
+						
+						
+						
+						
+9	CORRECT		A sine wave is ________.			
+						
+			correct		A)	periodic and continuous
+						
+					B)	aperiodic and continuous
+						
+					C)	periodic and discrete
+						
+					D)	aperiodic and discrete
+						
+						
+						
+						
+						
+10	INCORRECT		If the maximum amplitude of a sine wave is 2 V, the minimum amplitude is ________ V.			
+						
+					A)	2
+						
+					B)	1
+						
+			correct		C)	-2
+						
+					D)	between -2 and 2
+						
+						
+						
+						
+						
+11	INCORRECT		A signal is measured at two different points. The power isÿP1ÿat the first point andÿP2ÿat the second point. The dB is 0. This means ________.			
+						
+					A)	P2ÿis zero
+						
+			correct		B)	P2ÿequalsÿP1
+						
+					C)	P2ÿis much larger thanÿP1
+						
+					D)	P2ÿis much smaller thanÿP1
+						
+						
+						
+						
+						
+12	CORRECT		________ is a type of transmission impairment in which the signal loses strength due to the resistance of the transmission medium.			
+						
+			correct		A)	Attenuation
+						
+					B)	Distortion
+						
+					C)	Noise
+						
+					D)	Decibel
+						
+						
+						
+						
+						
+13	INCORRECT		________ is a type of transmission impairment in which the signal loses strength due to the different propagation speeds of each frequency that makes up the signal.			
+						
+					A)	Attenuation
+						
+			correct		B)	Distortion
+						
+					C)	Noise
+						
+					D)	Decibel
+						
+						
+						
+						
+						
+14	INCORRECT		________ is a type of transmission impairment in which an outside source such as crosstalk corrupts a signal.			
+						
+					A)	Attenuation
+						
+					B)	Distortion
+						
+			correct		C)	Noise
+						
+					D)	Decibel
+						
+						
+						
+						
+						
+15	INCORRECT		When propagation speed is multiplied by propagation time, we get the ________.			
+						
+					A)	throughput
+						
+					B)	wavelength of the signal
+						
+					C)	distortion factor
+						
+			correct		D)	distance a signal or bit has traveled
+						
+						
+						
+						
+						
+16	INCORRECT		Data can be ________.			
+						
+					A)	analog
+						
+					B)	digital
+						
+			correct		C)	(a) or (b)
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	CORRECT		_______ data are continuous and take continuous values.			
+						
+			correct		A)	analog
+						
+					B)	digital
+						
+					C)	(a) or (b)
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+18	INCORRECT		_______ data have discrete states and take discrete values.			
+						
+					A)	Analog
+						
+			correct		B)	Digital
+						
+					C)	(a) or (b)
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+19	INCORRECT		Signals can be ________.			
+						
+					A)	analog
+						
+					B)	digital
+						
+			correct		C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+20	CORRECT		_____ signals can have an infinite number of values in a range.			
+						
+			correct		A)	Analog
+						
+					B)	Digital
+						
+					C)	(a) or (b)
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+21	INCORRECT		_______ signals can have only a limited number of values.			
+						
+					A)	Analog
+						
+			correct		B)	Digital
+						
+					C)	(a) or (b)
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+22	CORRECT		Frequency and period are ______.			
+						
+			correct		A)	inverse of each other
+						
+					B)	proportional to each other
+						
+					C)	the same
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		________is the rate of change with respect to time.			
+						
+					A)	Amplitude
+						
+					B)	Time
+						
+			correct		C)	Frequency
+						
+					D)	Voltage
+						
+						
+						
+						
+						
+24	INCORRECT		_______ describes the position of the waveform relative to time 0.			
+						
+					A)	Frequency
+						
+			correct		B)	Phase
+						
+					C)	Amplitude
+						
+					D)	Voltage
+						
+						
+						
+						
+						
+25	CORRECT		A sine wave in the ______ domain can be represented by one single spike in the _____ domain.			
+						
+			correct		A)	"time; frequency"
+						
+					B)	"frequency; time"
+						
+					C)	"time; phase"
+						
+					D)	"phase; time"
+						
+						
+						
+						
+						
+26	INCORRECT		"A _________ sine wave is not useful in data communications; we need to send a _______ signal."			
+						
+					A)	"composite; single-frequency"
+						
+			correct		B)	"single-frequency; composite"
+						
+					C)	"single-frequency; double-frequency"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		The _____ of a composite signal is the difference between the highest and the lowest frequencies contained in that signal.			
+						
+					A)	frequency
+						
+					B)	period
+						
+			correct		C)	bandwidth
+						
+					D)	amplitude
+						
+						
+						
+						
+						
+28	CORRECT		A(n)_________ signal is a composite analog signal with an infinite bandwidth.			
+						
+			correct		A)	digital
+						
+					B)	analog
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+29	CORRECT		Baseband transmission of a digital signal is possible only if we have a ____ channel.			
+						
+			correct		A)	low-pass
+						
+					B)	bandpass
+						
+					C)	low rate
+						
+					D)	high rate
+						
+						
+						
+						
+						
+30	INCORRECT		If the available channel is a ____ channel, we cannot send a digital signal directly to the channel.			
+						
+					A)	low-pass
+						
+			correct		B)	bandpass
+						
+					C)	low rate
+						
+					D)	high rate
+						
+						
+						
+						
+						
+31	INCORRECT		For a ______ channel, the Nyquist bit rate formula defines the theoretical maximum bit rate.			
+						
+					A)	noisy
+						
+			correct		B)	noiseless
+						
+					C)	bandpass
+						
+					D)	low-pass
+						
+						
+						
+						
+						
+32	CORRECT		For a ______ channel, we need to use the Shannon capacity to find the maximum bit rate.			
+						
+			correct		A)	noisy
+						
+					B)	noiseless
+						
+					C)	bandpass
+						
+					D)	low-pass
+						
+						
+						
+						
+						
+33	INCORRECT		_________ can impair a signal.			
+						
+					A)	Attenuation
+						
+					B)	Distortion
+						
+					C)	Noise
+						
+			correct		D)	All of the above
+						
+						
+						
+						
+						
+34	INCORRECT		The _________ product defines the number of bits that can fill the link.			
+						
+					A)	bandwidth-period
+						
+					B)	frequency-amplitude
+						
+			correct		C)	bandwidth-delay
+						
+					D)	delay-amplitude

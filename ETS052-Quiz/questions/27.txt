@@ -1,0 +1,419 @@
+WWW and HTTP
+1	CORRECT		_________ is a repository of information linked together from points all over the world.			
+						
+			correct		A)	The WWW
+						
+					B)	HTTP
+						
+					C)	HTML
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+2	INCORRECT		The WWW today is a _______ client-server service, in which a client using a browser can access a service using a server.			
+						
+					A)	limited
+						
+					B)	vast
+						
+			correct		C)	distributed
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+3	CORRECT		The _________ is a standard for specifying any kind of information on the Internet.			
+						
+			correct		A)	URL
+						
+					B)	ULR
+						
+					C)	RLU
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+4	INCORRECT		In a URL, the _______ is the client-server program used to retrieve the document.			
+						
+					A)	path
+						
+			correct		B)	protocol
+						
+					C)	host
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+5	INCORRECT		In a URL, the ______ is the computer on which the information is located.			
+						
+					A)	path
+						
+					B)	protocol
+						
+			correct		C)	host
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	INCORRECT		In a URL, an optional ________ can be inserted between the host and the path, and it is separated from the host by a colon.			
+						
+					A)	path
+						
+					B)	protocol
+						
+					C)	host
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+7	CORRECT		In a URL, the _______ is the full name of the file where the information is located.			
+						
+			correct		A)	path
+						
+					B)	protocol
+						
+					C)	host
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		A cookie is made by the ________ and eaten by the _________.			
+						
+					A)	"client; client"
+						
+					B)	"client; server"
+						
+			correct		C)	"server; server"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	INCORRECT		The documents in the WWW can be grouped into ______ broad categories.			
+						
+					A)	two
+						
+			correct		B)	three
+						
+					C)	four
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+10	CORRECT		A _______ document is a fixed-content document that is created and stored in a server. The client can get a copy of the document only.			
+						
+			correct		A)	static
+						
+					B)	dynamic
+						
+					C)	active
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	INCORRECT		_____________ is a language for creating Web pages.			
+						
+					A)	HTTP
+						
+			correct		B)	HTML
+						
+					C)	FTTP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	INCORRECT		A _______ document is created by a Web server whenever a browser requests the document.			
+						
+					A)	static
+						
+			correct		B)	dynamic
+						
+					C)	active
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	INCORRECT		___________ is a technology that creates and handles dynamic documents.			
+						
+					A)	GIC
+						
+			correct		B)	CGI
+						
+					C)	GCI
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	INCORRECT		Dynamic documents are sometimes referred to as _________ dynamic documents.			
+						
+					A)	client-site
+						
+			correct		B)	server-site
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+15	INCORRECT		For many applications, we need a program or a script to be run at the client site. These are called _______________ documents.			
+						
+					A)	static
+						
+					B)	dynamic
+						
+			correct		C)	active
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+16	INCORRECT		One way to create an active document is to use __________.			
+						
+					A)	CGI
+						
+					B)	Java stand-alone programs
+						
+			correct		C)	Java applets
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	CORRECT		Active documents are sometimes referred to as _________ dynamic documents.			
+						
+			correct		A)	client-site
+						
+					B)	server-site
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+18	INCORRECT		HTTP uses the services of _________ on well-known port 80.			
+						
+					A)	UDP
+						
+					B)	IP
+						
+			correct		C)	TCP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+19	INCORRECT		"In HTTP, the first line in a request message is called a _______ line; the first line in the response message is called the ________ line."			
+						
+					A)	"request; response"
+						
+					B)	"response; request"
+						
+					C)	"response; status"
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+20	INCORRECT		In a ___________ connection, one TCP connection is made for each request/response.			
+						
+					A)	persistent
+						
+			correct		B)	nonpersistent
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	CORRECT		In a ___________connection, the server leaves the connection open for more requests after sending a response.			
+						
+			correct		A)	persistent
+						
+					B)	nonpersistent
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	CORRECT		HTTP version 1.1 specifies a _________connection by default.			
+						
+			correct		A)	persistent
+						
+					B)	nonpersistent
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		In HTTP, a _______ server is a computer that keeps copies of responses to recent requests.			
+						
+					A)	regular
+						
+			correct		B)	proxy
+						
+					C)	both a and b
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		An HTTP request message always contains _______.			
+						
+					A)	a header and a body
+						
+			correct		B)	a request line and a header
+						
+					C)	a status line, a header, and a body
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	CORRECT		Which of the following is present in both an HTTP request line and a status line?			
+						
+			correct		A)	HTTP version number
+						
+					B)	URL
+						
+					C)	status code
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	CORRECT		The HTTP request line contains a _______ method to request a document from the server.			
+						
+			correct		A)	GET
+						
+					B)	POST
+						
+					C)	COPY
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		A user needs to send the server some information. The request line method is _______.			
+						
+					A)	OPTION
+						
+					B)	PATCH
+						
+			correct		C)	POST
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	CORRECT		The HTTP request line contains a _______ method to get information about a document without retrieving the document itself.			
+						
+			correct		A)	HEAD
+						
+					B)	POST
+						
+					C)	COPY
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		A response message always contains _______.			
+						
+					A)	a header and a body
+						
+					B)	a request line and a header
+						
+			correct		C)	a status line and a header
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+30	INCORRECT		An applet is _______ document application program.			
+						
+					A)	a static
+						
+			correct		B)	an active
+						
+					C)	a passive
+						
+					D)	a dynamic
+						
+						
+						

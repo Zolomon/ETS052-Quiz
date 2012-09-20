@@ -1,0 +1,377 @@
+Domain Name System
+1	CORRECT		In a _______ name space, a name is assigned to an address. A name in this space is a sequence of characters without structure.			
+						
+			correct		A)	flat
+						
+					B)	hierarchical
+						
+					C)	organized
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+2	INCORRECT		In a _________name space, each name is made of several parts.			
+						
+					A)	flat
+						
+			correct		B)	hierarchical
+						
+					C)	organized
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+3	INCORRECT		To have a hierarchical name space, a ______________ was designed.			
+						
+					A)	domain space
+						
+					B)	domain name
+						
+			correct		C)	domain name space
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+4	INCORRECT		In the DNS, the names are defined in ___________ structure.			
+						
+					A)	a linear list
+						
+			correct		B)	an inverted-tree
+						
+					C)	a graph
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+5	INCORRECT		Each node in the tree has a _______, which is a string with a maximum of ___ characters.			
+						
+					A)	"label; 127"
+						
+					B)	"name; 255"
+						
+			correct		C)	"label; 63"
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	INCORRECT		The root of the DNS tree is _______.			
+						
+					A)	a string of characters
+						
+					B)	a string of 63 characters
+						
+			correct		C)	an empty string
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	INCORRECT		A full domain name is a sequence of labels separated by ________.			
+						
+					A)	semicolons
+						
+			correct		B)	dots
+						
+					C)	colons
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		If a label is terminated by a null string, it is called a __________.			
+						
+					A)	PQDN
+						
+			correct		B)	FQDN
+						
+					C)	SQDN
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	CORRECT		If a label is not terminated by a null string, it is called a __________.			
+						
+			correct		A)	PQDN
+						
+					B)	FQDN
+						
+					C)	SQDN
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+10	INCORRECT		A _________ is a subtree of the domain name space.			
+						
+					A)	label
+						
+					B)	name
+						
+			correct		C)	domain
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	INCORRECT		What a server is responsible for or has authority over is called a _________.			
+						
+					A)	domain
+						
+					B)	label
+						
+			correct		C)	zone
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+12	INCORRECT		A _______ is a server whose zone consists of the whole tree.			
+						
+					A)	domain server
+						
+					B)	zone server
+						
+			correct		C)	root server
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	CORRECT		A ________ server loads all information from the disk file.			
+						
+			correct		A)	primary
+						
+					B)	secondary
+						
+					C)	zone
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	INCORRECT		A ________ server loads all information from the primary server.			
+						
+					A)	primary
+						
+			correct		B)	secondary
+						
+					C)	zone
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+15	INCORRECT		When the secondary downloads information from the primary, it is called ______ transfer.			
+						
+					A)	domain
+						
+			correct		B)	zone
+						
+					C)	label
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+16	CORRECT		In the Internet, the domain name space (tree) is divided into _______ different sections:			
+						
+			correct		A)	three
+						
+					B)	two
+						
+					C)	four
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	CORRECT		The _______ domains define registered hosts according to their generic behavior.			
+						
+			correct		A)	generic
+						
+					B)	country
+						
+					C)	inverse
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+18	INCORRECT		The first level in the generic domains section allows ______ possible labels.			
+						
+					A)	10
+						
+					B)	12
+						
+					C)	16
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+19	INCORRECT		The ____________ domain section uses two-character country abbreviations.			
+						
+					A)	generic
+						
+			correct		B)	country
+						
+					C)	inverse
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	INCORRECT		The _________ domain is used to map an address to a name.			
+						
+					A)	generic
+						
+					B)	country
+						
+			correct		C)	inverse
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		In __________ resolution, the resolver expects the server to supply the final answer.			
+						
+					A)	iterative
+						
+			correct		B)	recursive
+						
+					C)	straight
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	CORRECT		In __________ resolution, the server returns the IP address of the server that it thinks can resolve the query.			
+						
+			correct		A)	iterative
+						
+					B)	recursive
+						
+					C)	straight
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		In the domain nameÿchal.atc.fhda.edu, _______ is the least specific label.			
+						
+					A)	chal
+						
+					B)	atc
+						
+			correct		C)	edu
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	CORRECT		In the domain nameÿchal.atc.fhda.edu, _______ is the most specific label.			
+						
+			correct		A)	chal
+						
+					B)	atc
+						
+					C)	fhda
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	INCORRECT		A host with the domain nameÿpit.arc.nasa.gov. is on the _______ level of the DNS hierarchical tree. (The root is level one.)			
+						
+					A)	third
+						
+					B)	fourth
+						
+			correct		C)	fifth
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	CORRECT		A pointer query involves the _______ domain.			
+						
+			correct		A)	inverse
+						
+					B)	reverse
+						
+					C)	root
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		DNS can use the services of ________ using the well-known port 53.			
+						
+					A)	UDP
+						
+					B)	TCP
+						
+			correct		C)	either (a) or (b)
+						
+					D)	none of the above
+						
+						
+						

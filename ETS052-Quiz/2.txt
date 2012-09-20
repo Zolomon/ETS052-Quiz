@@ -1,0 +1,664 @@
+Network Models
+1	INCORRECT		The Internet model consists of _______ layers.			
+						
+					A)	Three
+						
+			correct		B)	Five
+						
+					C)	Seven
+						
+					D)	Eight
+						
+						
+						
+						
+						
+2	INCORRECT		The process-to-process delivery of the entire message is the responsibility of the _______ layer.			
+						
+					A)	Network
+						
+			correct		B)	Transport
+						
+					C)	Application
+						
+					D)	Physical
+						
+						
+						
+						
+						
+3	CORRECT		The _______ layer is the layer closest to the transmission medium.			
+						
+			correct		A)	Physical
+						
+					B)	Data link
+						
+					C)	Network
+						
+					D)	Transport
+						
+						
+						
+						
+						
+4	INCORRECT		Mail services are available to network users through the _______ layer.			
+						
+					A)	Data link
+						
+					B)	Physical
+						
+					C)	Transport
+						
+			correct		D)	Application
+						
+						
+						
+						
+						
+5	CORRECT		As the data packet moves from the upper to the lower layers, headers are _______.			
+						
+			correct		A)	Added
+						
+					B)	Removed
+						
+					C)	Rearranged
+						
+					D)	Modified
+						
+						
+						
+						
+						
+6	INCORRECT		The _______ layer lies between the network layer and the application layer.			
+						
+					A)	Physical
+						
+					B)	Data link
+						
+			correct		C)	Transport
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+7	CORRECT		Layer 2 lies between the physical layer and the _______ layer.			
+						
+			correct		A)	Network
+						
+					B)	Data link
+						
+					C)	Transport
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+8	INCORRECT		When data are transmitted from device A to device B, the header from A's layer 4 is read by B's _______ layer.			
+						
+					A)	Physical
+						
+			correct		B)	Transport
+						
+					C)	Application
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+9	UNANSWERED		The _______ layer changes bits into electromagnetic signals.			
+						
+					A)	Physical
+						
+					B)	Data link
+						
+					C)	Transport
+						
+					D)	None of the above
+						
+						
+						
+10	INCORRECT		Which of the following is an application layer service?			
+						
+					A)	Remote log-in
+						
+					B)	File transfer and access
+						
+					C)	Mail service
+						
+			correct		D)	All the above
+						
+						
+						
+						
+						
+11	INCORRECT		Why was the OSI model developed?			
+						
+					A)	Manufacturers disliked the TCP/IP protocol suite.
+						
+					B)	The rate of data transfer was increasing exponentially
+						
+			correct		C)	Standards were needed to allow any two systems to communicate
+						
+					D)	None of the above
+						
+						
+						
+						
+						
+12	INCORRECT		The _______ model shows how the network functions of a computer ought to be organized.			
+						
+					A)	CCITT
+						
+			correct		B)	OSI
+						
+					C)	ISO
+						
+					D)	ANSI
+						
+						
+						
+						
+						
+13	INCORRECT		The physical layer is concerned with the movement of _______ over the physical medium.			
+						
+					A)	programs
+						
+					B)	dialogs
+						
+					C)	protocols
+						
+			correct		D)	bits
+						
+						
+						
+						
+						
+14	UNANSWERED		The OSI model consists of _______ layers.			
+						
+					A)	three
+						
+					B)	five
+						
+					C)	seven
+						
+					D)	eight
+						
+						
+						
+15	INCORRECT		In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______.			
+						
+					A)	added
+						
+			correct		B)	removed
+						
+					C)	rearranged
+						
+					D)	modified
+						
+						
+						
+						
+						
+16	INCORRECT		In the OSI model, when data is transmitted from device A to device B, the header from A's layer 5 is read by B's _______ layer.			
+						
+					A)	physical
+						
+					B)	transport
+						
+			correct		C)	session
+						
+					D)	presentation
+						
+						
+						
+						
+						
+17	INCORRECT		In the OSI model, what is the main function of the transport layer?			
+						
+					A)	node-to-node delivery
+						
+			correct		B)	process-to-process message delivery
+						
+					C)	synchronization
+						
+					D)	updating and maintenance of routing tables
+						
+						
+						
+						
+						
+18	INCORRECT		In the OSI model, encryption and decryption are functions of the ________ layer.			
+						
+					A)	transport
+						
+					B)	session
+						
+			correct		C)	presentation
+						
+					D)	application
+						
+						
+						
+						
+						
+19	INCORRECT		When a host on network A sends a message to a host on network B, which address does the router look at?			
+						
+					A)	port
+						
+			correct		B)	logical
+						
+					C)	physical
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	CORRECT		To deliver a message to the correct application program running on a host, the _______ address must be consulted.			
+						
+			correct		A)	port
+						
+					B)	IP
+						
+					C)	physical
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		IPv6 has _______ -bit addresses.			
+						
+					A)	32
+						
+					B)	64
+						
+			correct		C)	128
+						
+					D)	variable
+						
+						
+						
+						
+						
+22	INCORRECT		ICMPv6 includes _______.			
+						
+					A)	IGMP
+						
+					B)	ARP
+						
+					C)	RARP
+						
+			correct		D)	a and b
+						
+						
+						
+						
+						
+23	INCORRECT		The ______ layer is responsible for moving frames from one hop (node) to the next.			
+						
+					A)	physical
+						
+			correct		B)	data link
+						
+					C)	transport
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		The ______ layer adds a header to the packet coming from the upper layer that includes the logical addresses of the sender and receiver.			
+						
+					A)	physical
+						
+					B)	data link
+						
+			correct		C)	network
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	INCORRECT		The_________ layer is responsible for the delivery of a message from one process to another.			
+						
+					A)	physical
+						
+			correct		B)	transport
+						
+					C)	network
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		The Internetworking Protocol (IP) is a ________ protocol.			
+						
+					A)	reliable
+						
+					B)	connection-oriented
+						
+					C)	both a and b
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		_______ is a process-to-process protocol that adds only port addresses, checksum error control, and length information to the data from the upper layer.			
+						
+					A)	TCP
+						
+			correct		B)	UDP
+						
+					C)	IP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	CORRECT		__________ provides full transport layer services to applications.			
+						
+			correct		A)	TCP
+						
+					B)	UDP
+						
+					C)	ARP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		The ________ address, also known as the link address, is the address of a node as defined by its LAN or WAN.			
+						
+					A)	port
+						
+			correct		B)	physical
+						
+					C)	logical
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+30	INCORRECT		Ethernet uses a ______ physical address that is imprinted on the network interface card (NIC).			
+						
+					A)	32-bit
+						
+					B)	64-bit
+						
+			correct		C)	6-byte
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+31	INCORRECT		A port address in TCP/IP is ______ bits long.			
+						
+					A)	32
+						
+					B)	48
+						
+			correct		C)	16
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+32	INCORRECT		The ____ created a model called the Open Systems Interconnection, which allows diverse systems to communicate.			
+						
+					A)	OSI
+						
+			correct		B)	ISO
+						
+					C)	IEEE
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+33	CORRECT		The seven-layer _____ model provides guidelines for the development of universally compatible networking protocols.			
+						
+			correct		A)	OSI
+						
+					B)	ISO
+						
+					C)	IEEE
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+34	INCORRECT		The physical, data link, and network layers are the ______ support layers.			
+						
+					A)	user
+						
+			correct		B)	network
+						
+					C)	both (a) and (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+35	CORRECT		The session, presentation, and application layers are the ____ support layers.			
+						
+			correct		A)	user
+						
+					B)	network
+						
+					C)	both (a) and (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+36	CORRECT		The _______ layer links the network support layers and the user support layers.			
+						
+			correct		A)	transport
+						
+					B)	network
+						
+					C)	data link
+						
+					D)	session
+						
+						
+						
+						
+						
+37	INCORRECT		The _______ layer coordinates the functions required to transmit a bit stream over a physical medium.			
+						
+					A)	transport
+						
+					B)	network
+						
+					C)	data link
+						
+			correct		D)	physical
+						
+						
+						
+						
+						
+38	INCORRECT		The _______ layer is responsible for delivering data units from one station to the next without errors.			
+						
+					A)	transport
+						
+					B)	network
+						
+			correct		C)	data link
+						
+					D)	physical
+						
+						
+						
+						
+						
+39	INCORRECT		The ______ layer is responsible for the source-to-destination delivery of a packet across multiple network links.			
+						
+					A)	transport
+						
+			correct		B)	network
+						
+					C)	data link
+						
+					D)	physical
+						
+						
+						
+						
+						
+40	CORRECT		The ________ layer is responsible for the process-to-process delivery of the entire message.			
+						
+			correct		A)	transport
+						
+					B)	network
+						
+					C)	data link
+						
+					D)	physical
+						
+						
+						
+						
+						
+41	INCORRECT		The ______ layer establishes, maintains, and synchronizes the interactions between communicating devices.			
+						
+					A)	transport
+						
+					B)	network
+						
+			correct		C)	session
+						
+					D)	physical
+						
+						
+						
+						
+						
+42	INCORRECT		The _______ layer ensures interoperability between communicating devices through transformation of data into a mutually agreed upon format.			
+						
+					A)	transport
+						
+					B)	network
+						
+					C)	data link
+						
+			correct		D)	presentation
+						
+						
+						
+						
+						
+43	INCORRECT		The _________ layer enables the users to access the network.			
+						
+					A)	transport
+						
+			correct		B)	application
+						
+					C)	data link
+						
+					D)	physical
+						
+						
+						
+						
+						
+44	INCORRECT		TCP/IP is a ______ hierarchical protocol suite developed ____ the OSI model.			
+						
+					A)	"seven-layer; before"
+						
+			correct		B)	"five-layer; before"
+						
+					C)	"six-layer; before"
+						
+					D)	"five-layer; after"
+						
+						
+						
+						
+						
+45	CORRECT		The TCP/IP _______ layer is equivalent to the combined session, presentation, and application layers of the OSI model.			
+						
+			correct		A)	application
+						
+					B)	network
+						
+					C)	data link
+						
+					D)	physical
+						
+						
+						
+						
+						
+46	CORRECT		The ________ address, also known as the link address, is the address of a node as defined by its LAN or WAN.			
+						
+			correct		A)	physical
+						
+					B)	IP
+						
+					C)	port
+						
+					D)	specific
+						
+						
+						
+						
+						
+47	INCORRECT		The ____ address uniquely defines a host on the Internet.			
+						
+					A)	physical
+						
+			correct		B)	IP
+						
+					C)	port
+						
+					D)	specific
+						
+						
+						
+						
+						
+48	INCORRECT		The_____ address identifies a process on a host.			
+						
+					A)	physical
+						
+					B)	IP
+						
+			correct		C)	port
+						
+					D)	specific

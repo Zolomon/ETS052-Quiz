@@ -1,0 +1,573 @@
+Wireless LANs
+1	INCORRECT		IEEE has defined the specifications for a wireless LAN, called _______, which covers the physical and data link layers.			
+						
+					A)	IEEE 802.3
+						
+					B)	IEEE 802.5
+						
+			correct		C)	IEEE 802.11
+						
+					D)	IEEE 802.2
+						
+						
+						
+						
+						
+2	INCORRECT		In IEEE 802.11, a ___ is made of stationary or mobile wireless stations and an optional central base station, known as the access point (AP).			
+						
+					A)	ESS
+						
+			correct		B)	BSS
+						
+					C)	CSS
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+3	CORRECT		In IEEE 802.11, a BSS without an AP is called an _________.			
+						
+			correct		A)	an ad hoc architecture
+						
+					B)	an infrastructure network
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+4	INCORRECT		In IEEE 802.11, a BSS with an AP is sometimes referred to as ____________.			
+						
+					A)	an ad hoc architecture
+						
+			correct		B)	an infrastructure network
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+5	INCORRECT		In IEEE 802.11, communication between two stations in two different BSSs usually occurs via two ________.			
+						
+					A)	BSSs
+						
+					B)	ESSs
+						
+			correct		C)	APs
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	CORRECT		In IEEE 802.11, a station with ________ mobility is either stationary (not moving) or moving only inside a BSS.			
+						
+			correct		A)	no-transition
+						
+					B)	BSS-transition
+						
+					C)	ESS-transition
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	INCORRECT		In IEEE 802.11, a station with ________mobility can move from one BSS to another, but the movement is confined inside one ESS.			
+						
+					A)	no-transition
+						
+			correct		B)	BSS-transition
+						
+					C)	ESS-transition
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		In IEEE 802.11, a station with ________ mobility can move from one ESS to another.			
+						
+					A)	no-transition
+						
+					B)	BSS-transition
+						
+			correct		C)	ESS-transition
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	INCORRECT		In IEEE 802.11, _______ is an optional access method that can be implemented in an infrastructure network (not in an ad hoc network).			
+						
+					A)	DCF
+						
+			correct		B)	PCF
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+10	CORRECT		In IEEE 802.11, when a frame is going from one station in a BSS to another without passing through the distribution system, the address flag is _____			
+						
+			correct		A)	0
+						
+					B)	1
+						
+					C)	10
+						
+					D)	11
+						
+						
+						
+						
+						
+11	INCORRECT		In IEEE 802.11, when a frame is coming from an AP and going to a station, the address flag is _______.			
+						
+					A)	0
+						
+			correct		B)	1
+						
+					C)	10
+						
+					D)	11
+						
+						
+						
+						
+						
+12	INCORRECT		In IEEE 802.11, when a frame is going from a station to an AP, the address flag is _____.			
+						
+					A)	0
+						
+					B)	1
+						
+			correct		C)	10
+						
+					D)	11
+						
+						
+						
+						
+						
+13	INCORRECT		In IEEE 802.11, when a frame is going from one AP to another AP in a wireless distribution system, the address flag is _____			
+						
+					A)	0
+						
+					B)	1
+						
+					C)	10
+						
+			correct		D)	11
+						
+						
+						
+						
+						
+14	INCORRECT		The IEEE 802.11 standard for wireless LANs defines two services: ______ and _______.			
+						
+					A)	"BSS; ASS"
+						
+					B)	"ESS; SSS"
+						
+			correct		C)	"BSS; ESS"
+						
+					D)	"BSS; DCF"
+						
+						
+						
+						
+						
+15	INCORRECT		In IEEE 802.11, the access method used in the DCF sublayer is _________.			
+						
+					A)	ALOHA
+						
+			correct		B)	CSMA/CA
+						
+					C)	CSMA/CD
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+16	INCORRECT		In IEEE 802.11, the access method used in the PCF sublayer is ______.			
+						
+					A)	contention
+						
+					B)	controlled
+						
+			correct		C)	polling
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+17	CORRECT		In IEEE 802.11, the ______ is a timer used for collision avoidance.			
+						
+			correct		A)	NAV
+						
+					B)	BSS
+						
+					C)	ESS
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+18	INCORRECT		In IEEE 802.11, the MAC layer frame has ______ fields.			
+						
+					A)	four
+						
+					B)	five
+						
+					C)	six
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+19	CORRECT		In IEEE 802.11, the addressing mechanism can include up to ______addresses.			
+						
+			correct		A)	four
+						
+					B)	five
+						
+					C)	six
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	INCORRECT		The original IEEE 802.11, uses _________.			
+						
+					A)	FHSS
+						
+					B)	DSSS
+						
+					C)	OFDM
+						
+			correct		D)	either (a) or (b)
+						
+						
+						
+						
+						
+21	INCORRECT		The IEEE 802.11a, uses _________.			
+						
+					A)	FHSS
+						
+					B)	DSSS
+						
+			correct		C)	OFDM
+						
+					D)	either (a) or (b)
+						
+						
+						
+						
+						
+22	INCORRECT		The IEEE 802.11b, uses _________.			
+						
+					A)	FHSS
+						
+			correct		B)	DSSS
+						
+					C)	OFDM
+						
+					D)	either (a) or (b)
+						
+						
+						
+						
+						
+23	INCORRECT		The IEEE 802.11g, uses _________.			
+						
+					A)	FHSS
+						
+					B)	DSSS
+						
+			correct		C)	OFDM
+						
+					D)	either (a) or (b)
+						
+						
+						
+						
+						
+24	CORRECT		The original IEEE 802.11, has a data rate of _____Mbps.			
+						
+			correct		A)	1
+						
+					B)	6
+						
+					C)	11
+						
+					D)	22
+						
+						
+						
+						
+						
+25	INCORRECT		IEEE 802.11a, has a data rate of _____Mbps.			
+						
+					A)	1
+						
+					B)	2
+						
+			correct		C)	6
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		IEEE 802.11b, has a data rate of _____Mbps.			
+						
+					A)	1
+						
+					B)	2
+						
+			correct		C)	5.5
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	INCORRECT		IEEE 802.11g, has a data rate of _____Mbps.			
+						
+					A)	1
+						
+					B)	2
+						
+					C)	11
+						
+			correct		D)	22
+						
+						
+						
+						
+						
+28	INCORRECT		The IEEE 802.11 wireless LANs use ________ types of frames.			
+						
+					A)	four
+						
+					B)	five
+						
+					C)	six
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		Bluetooth is a _______ technology that connects devices (called gadgets) in a small area.			
+						
+					A)	wired LAN
+						
+			correct		B)	wireless LAN
+						
+					C)	VLAN
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+30	CORRECT		A Bluetooth network is called a ________.			
+						
+			correct		A)	piconet
+						
+					B)	scatternet
+						
+					C)	bluenet
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+31	INCORRECT		In Bluetooth, multiple ________ form a network called a _________.			
+						
+					A)	"scatternet; piconets"
+						
+			correct		B)	piconets: scatternet
+						
+					C)	piconets: bluenet
+						
+					D)	"bluenet; scatternet"
+						
+						
+						
+						
+						
+32	INCORRECT		A Bluetooth network consists of _____ primary device(s) and up to ____ secondary devices.			
+						
+					A)	"one; five"
+						
+					B)	"five; three"
+						
+					C)	"two; six"
+						
+			correct		D)	"one; seven"
+						
+						
+						
+						
+						
+33	CORRECT		The RTS and CTS frames in CSMA/CA ____ solve the hidden station problem. The RTS and CTS frames in CSMA/CA ____ solve the exposed station problem.			
+						
+			correct		A)	"can; cannot"
+						
+					B)	"cannot; can"
+						
+					C)	"can; can"
+						
+					D)	"cannot; cannot"
+						
+						
+						
+						
+						
+34	INCORRECT		In Bluetooth, the current data rate is ____Mbps			
+						
+					A)	2
+						
+					B)	5
+						
+					C)	11
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+35	CORRECT		In Bluetooth, the _______ layer is roughly equivalent to the physical layer of the Internet model.			
+						
+			correct		A)	radio
+						
+					B)	baseband
+						
+					C)	L2CAP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+36	INCORRECT		In Bluetooth, the _____layer is roughly equivalent to the MAC sublayer in LANs.			
+						
+					A)	radio
+						
+			correct		B)	baseband
+						
+					C)	L2CAP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+37	INCORRECT		In Bluetooth, the L2CAP sublayer, is roughly equivalent to the LLC sublayer in LANs.			
+						
+					A)	radio
+						
+					B)	baseband
+						
+			correct		C)	L2CAP
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+38	INCORRECT		The access method in Bluetooth is ________.			
+						
+					A)	FDMA
+						
+			correct		B)	TDD-TDMA
+						
+					C)	CDMA
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+39	CORRECT		In Bluetooth, the _____ link is used when avoiding latency (delay in data delivery) is more important than integrity (error-free delivery).			
+						
+			correct		A)	SCO
+						
+					B)	ACL
+						
+					C)	ACO
+						
+					D)	SCL
+						
+						
+						
+						
+						
+40	INCORRECT		In Bluetooth, the _____ link is used when data integrity is more important than avoiding latency.			
+						
+					A)	SCO
+						
+			correct		B)	ACL
+						
+					C)	ACO
+						
+					D)	SCL
+						
+						
+						
+						
+						
+41	INCORRECT		Bluetooth uses ______method in the physical layer to avoid interference from other devices or other networks.			
+						
+					A)	DSSS
+						
+			correct		B)	FHSS
+						
+					C)	FDMA
+						
+					D)	none of the above
+						
+						
+						

@@ -1,0 +1,539 @@
+SONET/SDH
+1	CORRECT		_______ is a standard developed by ANSI for fiber-optic networks.			
+						
+			correct		A)	SONET
+						
+					B)	SDH
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+2	INCORRECT		_______ is a standard developed by ITU-T.			
+						
+					A)	SONET
+						
+			correct		B)	SDH
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+3	UNANSWERED		SONET has defined a hierarchy of signals called ________.			
+						
+					A)	STSs
+						
+					B)	STMs
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+4	UNANSWERED		SDH has defined a hierarchy of signals called ________.			
+						
+					A)	STSs
+						
+					B)	STMs
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+5	CORRECT		An ______ signal is the optical modulation of an STS-nÿ(or STM-n) signal.			
+						
+			correct		A)	OC-n
+						
+					B)	TDM-n
+						
+					C)	FDM-n
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+6	INCORRECT		.SONET defines _______ layers.			
+						
+					A)	two
+						
+					B)	three
+						
+			correct		C)	four
+						
+					D)	five
+						
+						
+						
+						
+						
+7	INCORRECT		SONET is a _______ TDM system.			
+						
+					A)	asynchronous
+						
+			correct		B)	synchronous
+						
+					C)	statistical
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	INCORRECT		A SONET system can use _________.			
+						
+					A)	STS multiplexers
+						
+					B)	regenerators
+						
+					C)	add/drop multiplexers
+						
+			correct		D)	all of the above
+						
+						
+						
+						
+						
+9	INCORRECT		SONET sends ________ frames per second			
+						
+					A)	1000
+						
+					B)	2000
+						
+					C)	4000
+						
+			correct		D)	8000
+						
+						
+						
+						
+						
+10	INCORRECT		In SONET each frame lasts _______ microseconds.			
+						
+					A)	20
+						
+					B)	64
+						
+					C)	128
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+11	UNANSWERED		An STS-1 frame is made of ________ rows			
+						
+					A)	1
+						
+					B)	9
+						
+					C)	90
+						
+					D)	none of the above
+						
+						
+						
+12	INCORRECT		An STS-1 frame is made ______columns			
+						
+					A)	1
+						
+					B)	9
+						
+			correct		C)	90
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	INCORRECT		An STS-3 frame is made of ______ rows.			
+						
+					A)	1
+						
+			correct		B)	9
+						
+					C)	27
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+14	INCORRECT		An STS-3 frame is made of ________ columns.			
+						
+					A)	9
+						
+					B)	90
+						
+			correct		C)	270
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+15	INCORRECT		SONET network topologies can be __________.			
+						
+					A)	linear
+						
+					B)	ring
+						
+					C)	mesh
+						
+			correct		D)	all of the above
+						
+						
+						
+						
+						
+16	INCORRECT		A linear SONET network can be __________.			
+						
+					A)	point-to-point
+						
+					B)	multipoint
+						
+			correct		C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+17	INCORRECT		A ring SONET network can be _________.			
+						
+					A)	unidirectional
+						
+					B)	bidirectional.
+						
+			correct		C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+18	INCORRECT		To make SONET backward-compatible with the current hierarchy, its frame design includes a system of.			
+						
+					A)	OCs
+						
+					B)	STMs
+						
+					C)	STSs
+						
+			correct		D)	VTs
+						
+						
+						
+						
+						
+19	CORRECT		A ________ is a repeater.			
+						
+			correct		A)	regenerator
+						
+					B)	ADM
+						
+					C)	STS multiplexer/demultiplexer
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	INCORRECT		__________ allow insertion and extraction of signals.			
+						
+					A)	regenerators
+						
+			correct		B)	ADMs
+						
+					C)	STS multiplexer/demultiplexers
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	CORRECT		A _______ is the optical link connecting two neighbor devices.			
+						
+			correct		A)	section
+						
+					B)	line
+						
+					C)	path
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	INCORRECT		A ______ is the portion of the network between two multiplexers.			
+						
+					A)	section
+						
+			correct		B)	line
+						
+					C)	path
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+23	INCORRECT		A ______is the end-to-end portion of the network between two STS multiplexers.			
+						
+					A)	section
+						
+					B)	line
+						
+			correct		C)	path
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+24	INCORRECT		The ______ layer is responsible for the movement of a signal from its optical source to its optical destination.			
+						
+					A)	section
+						
+					B)	line
+						
+			correct		C)	path
+						
+					D)	photonic
+						
+						
+						
+						
+						
+25	INCORRECT		The ____ layer is responsible for the movement of a signal across a physical line.			
+						
+					A)	section
+						
+			correct		B)	line
+						
+					C)	path
+						
+					D)	photonic
+						
+						
+						
+						
+						
+26	CORRECT		The ______ layer is responsible for the movement of a signal across a physical section.			
+						
+			correct		A)	section
+						
+					B)	line
+						
+					C)	path
+						
+					D)	photonic
+						
+						
+						
+						
+						
+27	INCORRECT		The _______ layer corresponds to the physical layer of the OSI model.			
+						
+					A)	section
+						
+					B)	line
+						
+					C)	path
+						
+			correct		D)	photonic
+						
+						
+						
+						
+						
+28	INCORRECT		An STS multiplexer is a ______ device.			
+						
+					A)	one-layer
+						
+					B)	two-layer
+						
+					C)	three-layer
+						
+			correct		D)	four-layer
+						
+						
+						
+						
+						
+29	INCORRECT		An add/drop multiplexer is a ______ device.			
+						
+					A)	one-layer
+						
+					B)	two-layer
+						
+			correct		C)	three-layer
+						
+					D)	four-layer
+						
+						
+						
+						
+						
+30	INCORRECT		A regenerator is a ________ device.			
+						
+					A)	one-layer
+						
+			correct		B)	two-layer
+						
+					C)	three-layer
+						
+					D)	four-layer
+						
+						
+						
+						
+						
+31	CORRECT		In SONET, for each frame, the bytes are transmitted __________.			
+						
+			correct		A)	from left to the right, top to bottom
+						
+					B)	from right to the left, bottom to top
+						
+					C)	from left to the right, bottom to top
+						
+					D)	from right to the left, top to bottom
+						
+						
+						
+						
+						
+32	INCORRECT		In SONET, for each byte, the bits are transmitted ____________.			
+						
+					A)	from least significant to the most significant
+						
+			correct		B)	from most significant to the least significant
+						
+					C)	two at a time
+						
+					D)	three at a time
+						
+						
+						
+						
+						
+33	INCORRECT		Each ________in a SONET frame can carry a digitized voice channel.			
+						
+					A)	bit
+						
+			correct		B)	byte
+						
+					C)	frame
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+34	INCORRECT		The section overhead consists of ______octets.			
+						
+					A)	1
+						
+					B)	6
+						
+			correct		C)	9
+						
+					D)	18
+						
+						
+						
+						
+						
+35	INCORRECT		Line overhead consists of ________ bytes.			
+						
+					A)	1
+						
+					B)	6
+						
+					C)	9
+						
+			correct		D)	18
+						
+						
+						
+						
+						
+36	INCORRECT		The path overhead consists of ______ bytes.			
+						
+					A)	1
+						
+					B)	6
+						
+			correct		C)	9
+						
+					D)	18
+						
+						
+						
+						
+						
+37	CORRECT		In ________ APS, there are normally two lines: one working line and one protection line. Both lines are active all the time.			
+						
+			correct		A)	one-plus-one
+						
+					B)	one-to-one
+						
+					C)	one-to-many
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+38	INCORRECT		In ______ APS, there is one working line and one protection line. The data are normally sent on the working line until it fails.			
+						
+					A)	one-plus-one
+						
+			correct		B)	one-to-one
+						
+					C)	one-to-many
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+39	INCORRECT		In ________APS, there is only one protection line for many working lines. When a failure occurs in one of the working lines, the protection line takes control until the failed line is repaired.			
+						
+					A)	one-plus-one
+						
+					B)	one-to-one
+						
+			correct		C)	one-to-many
+						
+					D)	none of the above
+						
+						
+						

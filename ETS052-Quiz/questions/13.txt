@@ -1,0 +1,585 @@
+Wired LANs: Ethernet
+1	INCORRECT		What is the hexadecimal equivalent of the Ethernet address 01011010 00010001 01010101 00011000 10101010 00001111?			
+						
+					A)	5A:88:AA:18:55:F0
+						
+					B)	5A:81:BA:81:AA:0F
+						
+					C)	5A:18:5A:18:55:0F
+						
+			correct		D)	5A:11:55:18:AA:0F
+						
+						
+						
+						
+						
+2	INCORRECT		If an Ethernet destination address is 07:01:02:03:04:05, then this is a ______ address.			
+						
+					A)	unicast
+						
+			correct		B)	multicast
+						
+					C)	broadcast
+						
+					D)	any of the above
+						
+						
+						
+						
+						
+3	CORRECT		If an Ethernet destination address is 08:07:06:05:44:33, then this is a ______ address.			
+						
+			correct		A)	unicast
+						
+					B)	multicast
+						
+					C)	broadcast
+						
+					D)	any of the above
+						
+						
+						
+						
+						
+4	CORRECT		Which of the following could not be an Ethernet unicast destination?			
+						
+			correct		A)	43:7B:6C:DE:10:00
+						
+					B)	44:AA:C1:23:45:32
+						
+					C)	46:56:21:1A:DE:F4
+						
+					D)	48:32:21:21:4D:34
+						
+						
+						
+						
+						
+5	INCORRECT		Which of the following could not be an Ethernet multicast destination?			
+						
+					A)	B7:7B:6C:DE:10:00
+						
+					B)	7B:AA:C1:23:45:32
+						
+			correct		C)	7C:56:21:1A:DE:F4
+						
+					D)	83:32:21:21:4D:34
+						
+						
+						
+						
+						
+6	INCORRECT		_______ is the most widely used local area network protocol.			
+						
+					A)	Token Ring
+						
+					B)	Token Bus
+						
+			correct		C)	Ethernet
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+7	CORRECT		The IEEE 802.3 Standard defines _________ CSMA/CD as the access method for first-generation 10-Mbps Ethernet.			
+						
+			correct		A)	1-persistent
+						
+					B)	p-persistent
+						
+					C)	non-persistent
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+8	CORRECT		The _______ layer of Ethernet consists of the LLC sublayer and the MAC sublayer.			
+						
+			correct		A)	data link
+						
+					B)	physical
+						
+					C)	network
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+9	INCORRECT		The _____ sublayer is responsible for the operation of the CSMA/CD access method and framing.			
+						
+					A)	LLC
+						
+					B)	MII
+						
+			correct		C)	MAC
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+10	INCORRECT		Each station on an Ethernet network has a unique _______ address imprinted on its network interface card (NIC).			
+						
+					A)	5-byte
+						
+					B)	32-bit
+						
+			correct		C)	48-bit
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+11	CORRECT		The minimum frame length for 10-Mbps Ethernet is _______bytes.			
+						
+					A)	32
+						
+					B)	80
+						
+					C)	128
+						
+			correct		D)	none of the above
+						
+						
+						
+						
+						
+12	CORRECT		The maximum frame length for 10-Mbps Ethernet is ________ bytes.			
+						
+			correct		A)	1518
+						
+					B)	1500
+						
+					C)	1200
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+13	CORRECT		_________ uses thick coaxial cable.			
+						
+			correct		A)	10Base5
+						
+					B)	10Base2
+						
+					C)	10Base-T
+						
+					D)	10Base-F
+						
+						
+						
+						
+						
+14	INCORRECT		__________ uses thin coaxial cable.			
+						
+					A)	10Base5
+						
+			correct		B)	10Base2
+						
+					C)	10Base-T
+						
+					D)	10Base-F
+						
+						
+						
+						
+						
+15	INCORRECT		_________ uses four twisted-pair cables that connect each station to a common hub.			
+						
+					A)	10Base5
+						
+					B)	10Base2
+						
+			correct		C)	10Base-T
+						
+					D)	10Base-F
+						
+						
+						
+						
+						
+16	INCORRECT		________ uses fiber-optic cable.			
+						
+					A)	10Base5
+						
+					B)	10Base2
+						
+					C)	10Base-T
+						
+			correct		D)	10Base-F
+						
+						
+						
+						
+						
+17	INCORRECT		Fast Ethernet has a data rate of ________Mbps.			
+						
+					A)	10
+						
+			correct		B)	100
+						
+					C)	1000
+						
+					D)	10
+						
+						
+						
+						
+						
+18	INCORRECT		In _________, autonegotiation allows two devices to negotiate the mode or data rate of operation.			
+						
+					A)	Standard
+						
+			correct		B)	Fast Ethernet
+						
+					C)	Gigabit Ethernet
+						
+					D)	Ten-Gigabit Ethernet
+						
+						
+						
+						
+						
+19	CORRECT		__________ uses two pairs of twisted-pair cable.			
+						
+			correct		A)	100Base-TX
+						
+					B)	100Base-FX
+						
+					C)	100Base-T4
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+20	INCORRECT		_________ uses two fiber-optic cables.			
+						
+					A)	100Base-TX
+						
+			correct		B)	100Base-FX
+						
+					C)	100Base-T4
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+21	INCORRECT		_________ uses four pairs of voice-grade, or higher, twisted-pair cable.			
+						
+					A)	100Base-TX
+						
+					B)	100Base-FX
+						
+			correct		C)	100Base-T4
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+22	INCORRECT		Gigabit Ethernet has a data rate of ________Mbps.			
+						
+					A)	10
+						
+					B)	100
+						
+			correct		C)	1000
+						
+					D)	10
+						
+						
+						
+						
+						
+23	INCORRECT		Gigabit Ethernet access methods include _______ mode.			
+						
+					A)	half-duplex
+						
+					B)	full-duplex
+						
+			correct		C)	both (a) and (b)
+						
+					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+24	CORRECT		__________ uses two optical fibers and a short-wave laser source,			
+						
+			correct		A)	1000Base-SX
+						
+					B)	1000Base-LX
+						
+					C)	1000Base-T
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+25	INCORRECT		__________uses two optical fibers and a long-wave laser source.			
+						
+					A)	1000Base-SX
+						
+			correct		B)	1000Base-LX
+						
+					C)	1000Base-T
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+26	INCORRECT		__________ uses four twisted pairs.			
+						
+					A)	1000Base-SX
+						
+					B)	1000Base-LX
+						
+			correct		C)	1000Base-T
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+27	CORRECT		________ uses short-wave 850-nm multimode fiber.			
+						
+			correct		A)	10GBase-S
+						
+					B)	10GBase-L
+						
+					C)	10GBase-E
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+28	INCORRECT		________uses long-wave 1310-nm single mode fiber.			
+						
+					A)	10GBase-S
+						
+			correct		B)	10GBase-L
+						
+					C)	10GBase-E
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+29	INCORRECT		________ uses 1550-mm single mode fiber.			
+						
+					A)	10GBase-S
+						
+					B)	10GBase-L
+						
+			correct		C)	10GBase-E
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+30	CORRECT		In Ethernet addressing, if the least significant bit of the first byte is 0, the address is _________.			
+						
+			correct		A)	unicast
+						
+					B)	multicast
+						
+					C)	broadcast
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+31	INCORRECT		In Ethernet addressing, if the least significant bit of the first byte is 1, the address is _________.			
+						
+					A)	unicast
+						
+			correct		B)	multicast
+						
+					C)	broadcast
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+32	INCORRECT		In Ethernet addressing, if all the bits are 1s, the address is _________.			
+						
+					A)	unicast
+						
+					B)	multicast
+						
+			correct		C)	broadcast
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+33	UNANSWERED		______defines a protocol data unit (PDU) that is somewhat similar to that of HDLC.			
+						
+					A)	MAC
+						
+					B)	LLC
+						
+					C)	LLU
+						
+					D)	none of the above
+						
+						
+						
+34	INCORRECT		The purpose of the _______ is to provide flow and error control for the upper-layer protocols that actually demand these services			
+						
+					A)	MAC
+						
+			correct		B)	LLC
+						
+					C)	LLU
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+35	INCORRECT		In the Ethernet, the _______field is actually added at the physical layer and is not (formally) part of the frame.			
+						
+					A)	CRC
+						
+			correct		B)	preamble
+						
+					C)	address
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+36	CORRECT		In the Ethernet frame, the _______ field contains error detection information.			
+						
+			correct		A)	CRC
+						
+					B)	preamble
+						
+					C)	address
+						
+					D)	none of the above
+						
+						
+						
+						
+						
+37	INCORRECT		Standard Ethernet (10-Mbps) uses _______ encoding			
+						
+					A)	NRZ
+						
+					B)	AMI
+						
+			correct		C)	Manchester
+						
+					D)	differential Manchester
+						
+						
+						
+						
+						
+38	INCORRECT		100Base-TX uses _________ block coding and ________ line coding.			
+						
+					A)	"4B/5B; NRZ"
+						
+					B)	"8B/10B; NRZ"
+						
+			correct		C)	"4B/5B; MLT-3"
+						
+					D)	"8B/10B; NRZ"
+						
+						
+						
+						
+						
+39	CORRECT		100Base-FX uses _________ block coding and ________ line coding.			
+						
+			correct		A)	"4B/5B; NRZ-I"
+						
+					B)	"8B/10B; NRZ"
+						
+					C)	"4B/5B; MLT-3"
+						
+					D)	"8B/10B; NRZ"
+						
+						
+						
+						
+						
+40	INCORRECT		100Base-T4 uses ________ line coding.			
+						
+					A)	NRZ
+						
+			correct		B)	8B6T
+						
+					C)	MLT-3
+						
+					D)	Manchester
+						
+						
+						
+						
+						
+41	INCORRECT		1000Base-SX, 1000Base-LX, and 1000Base-CX use _________ block coding and ________ line coding.			
+						
+					A)	"4B/5B; NRZ"
+						
+			correct		B)	"8B/10B; NRZ"
+						
+					C)	"4B/5B; MLT-3"
+						
+					D)	"8B/10B; NRZ"
+						
+						
+						
+						
+						
+42	CORRECT		1000Base-T uses ________ line coding.			
+						
+			correct		A)	4D-PAM5
+						
+					B)	8B6T
+						
+					C)	MLT-3
+						
+					D)	Manchester
+						
+						
+						
