@@ -90,6 +90,7 @@
     <ClInclude Include="QuestionManager.h" />
     <ClInclude Include="QuestionReader.h" />
     <ClInclude Include="QuizSession.h" />
+    <ClInclude Include="RandomInt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

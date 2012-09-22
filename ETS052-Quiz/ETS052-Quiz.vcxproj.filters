@@ -50,5 +50,8 @@
     <ClInclude Include="QuizSession.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RandomInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

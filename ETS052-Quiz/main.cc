@@ -254,6 +254,7 @@ void DoQuiz( QuizSession &qs )
     qs.startQuiz();
     ScoreTable st;
     string previousAnswer;
+    int correctAnswer = 0;
     while(qs.hasQuestions())
     {
         cm.clearScreen();
@@ -263,14 +264,18 @@ void DoQuiz( QuizSession &qs )
         PrintScoreHeader(&st);
 
         cm.print("Previous answer was: ", DarkRed, Yellow);
-        cm.print(previousAnswer, Red, DarkRed);
+        if (!correctAnswer)
+            cm.print(previousAnswer, Red, DarkRed);
+        else
+            cm.print(previousAnswer, Green, DarkGreen);
         cm.print("\n", DarkBlack);
 
         cm.print("Next question: \n", 138);
         cm.print("\n", 136);
         auto answerSheet = PrintQuestion(q);
         previousAnswer = answerSheet.second[answerSheet.first];
-        st.push_back( AnswerQuestion(q, answerSheet) );
+        correctAnswer = AnswerQuestion(q, answerSheet);
+        st.push_back( correctAnswer );
     }
 }
 

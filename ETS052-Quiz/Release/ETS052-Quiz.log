@@ -1,0 +1,30 @@
+﻿Build started 2012-09-22 19:01:47.
+     1>Project "C:\Users\zol\documents\visual studio 2010\Projects\ETS052-Quiz\ETS052-Quiz\ETS052-Quiz.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\zol\documents\visual studio 2010\Projects\ETS052-Quiz\Release\".
+       InitializeBuildStatus:
+         Creating "Release\ETS052-Quiz.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Programming\boost\boost_1_47" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleManager.cc main.cc Question.cc QuestionManager.cc QuestionReader.cc QuizSessions.cc
+         ConsoleManager.cc
+     1>ConsoleManager.cc(182): error C2664: 'GetConsoleTitleW' : cannot convert parameter 1 from 'char [1024]' to 'LPWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>ConsoleManager.cc(188): error C2664: 'wsprintfW' : cannot convert parameter 1 from 'char [1024]' to 'LPWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>ConsoleManager.cc(192): error C2664: 'SetConsoleTitleW' : cannot convert parameter 1 from 'char [1024]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>ConsoleManager.cc(200): error C2664: 'FindWindowW' : cannot convert parameter 2 from 'char [1024]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>ConsoleManager.cc(204): error C2664: 'SetConsoleTitleW' : cannot convert parameter 1 from 'char [1024]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         main.cc
+         Question.cc
+     1>Question.cc(80): warning C4018: '<' : signed/unsigned mismatch
+         QuestionManager.cc
+         QuestionReader.cc
+         QuizSessions.cc
+     1>Done Building Project "C:\Users\zol\documents\visual studio 2010\Projects\ETS052-Quiz\ETS052-Quiz\ETS052-Quiz.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.11

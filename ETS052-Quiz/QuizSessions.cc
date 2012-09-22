@@ -1,5 +1,6 @@
 #include "QuizSession.h"
 #include <algorithm>
+#include "RandomInt.h"
 
 namespace ETS052
 {
@@ -19,7 +20,8 @@ namespace ETS052
 
      void QuizSession::shuffleQuestions()
      {
-         random_shuffle(mQuiz.begin(), mQuiz.end());
+         RandomInt Rand;
+         random_shuffle(mQuiz.begin(), mQuiz.end(), Rand);
          int i = 0;
          for (auto it = mQuiz.begin(); it != mQuiz.end(); it++)
          {

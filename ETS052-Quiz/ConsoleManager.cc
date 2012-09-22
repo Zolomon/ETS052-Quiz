@@ -25,8 +25,9 @@ namespace ETS052
             exit(1);
         }
 
-        SetWindowPos(GetConsoleHwnd(), HWND_TOP, 2024,0,860, 640, 0);
-
+#ifdef _DEBUG
+        SetWindowPos(GetConsoleHwnd(), HWND_TOP, 2024,0,1024, 640, 0);
+#endif
         // Save the current text colors. 
         if (! GetConsoleScreenBufferInfo(mHStdout, &mCsbiInfo)) 
         {
