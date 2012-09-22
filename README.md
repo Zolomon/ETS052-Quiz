@@ -5,6 +5,8 @@ A CLI Quiz application in C++ for the course ETS052 at LTH@Sweden
 
 Currently the application has minimal cross-platform support. 
 
+Thanks goes to ![Forouzan](http://highered.mcgraw-hill.com/sites/0072967757/information_center_view0/)
+
 #### Menu
 ![Menu](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/menu.png?raw=true)
 
