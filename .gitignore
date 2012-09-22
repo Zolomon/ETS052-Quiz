@@ -12,3 +12,5 @@
 *.a
 Debug/
 */Debug/
+Release
+*/Release/
