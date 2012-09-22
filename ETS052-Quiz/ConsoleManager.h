@@ -10,6 +10,26 @@ using std::string;
 
 namespace ETS052
 {
+    enum ColorCode
+    {
+        DarkBlack = 0,
+        DarkBlue = 1,
+        DarkGreen = 2,
+        DarkCyan = 3,
+        DarkRed = 4,
+        DarkMagenta = 5,
+        DarkYellow = 6,
+        DarkWhite = 7,
+        Black = 8,
+        Blue = 9,
+        Green = 10,
+        Cyan = 11,
+        Red = 12,
+        Magenta = 13,
+        Yellow = 14,
+        White = 15,
+    };
+
     class ConsoleManager
     {
         /* COLORS HERE */
@@ -25,7 +45,10 @@ namespace ETS052
         ConsoleManager();
         ~ConsoleManager();
 
+        void print(string output);
         void print(string output, int color);
+        void print(string output, int bg, int fg);
+
         char read();
         string *readLine();
 

@@ -15,16 +15,18 @@ using namespace ETS052;
 ConsoleManager cm;
 QuestionManager qm;
 
+typedef vector<int> ScoreTable;
+
 void Header() 
 {
     cm.clearScreen();
-    cm.print("                       ", 204);
+    cm.print("         TEST          ", DarkBlack , Red);
     cm.print(" ETS052 - Computer Communication ", 249);
-    cm.print("                       ", 204);
+    cm.print("         TEST          ", Red, DarkBlack);
     cm.print("\n", 0);
 }
 
-int DrawMenu() 
+char DrawMenu() 
 {
     Header();
 
@@ -32,13 +34,13 @@ int DrawMenu()
     cm.print("\n", 0);
     cm.print("\n", 0);
 
-    cm.print("                       ", 17);
-    cm.print(" MENU ", 249);
-    cm.print("                       ", 17); cm.print("\n", 0);
-    cm.print("                       ", 0);
-    cm.print("[ 0 ] ", 10); cm.print("New Session", 7); cm.print("\n", 0);
-    cm.print("                       ", 0);
-    cm.print("[ 1 ] ", 10); cm.print("Quit", 7); cm.print("\n", 0);
+    cm.print("                       ", DarkBlue, DarkBlack);
+    cm.print(" MENU ", DarkBlue, Green);
+    cm.print("                       ", DarkBlue, DarkBlack); cm.print("\n", DarkBlack);
+    cm.print("                       ", Black);
+    cm.print("[ 0 ] ", 10); cm.print("New Session", DarkBlack, DarkWhite); cm.print("\n", DarkBlack);
+    cm.print("                       ", DarkBlack);
+    cm.print("[ 1 ] ", 10); cm.print("Quit", DarkBlack, DarkWhite); cm.print("\n", DarkBlack);
 
     return cm.read();
 }
@@ -64,13 +66,13 @@ void PrintCategories(map<int, string> &chosenCategories, map<int, string> &selec
         stringstream ss;
         ss << it->first;
         if (it->first < 10)
-            cm.print("[ ", 122);
+            cm.print("[ ", DarkWhite, Green);
         else 
-            cm.print("[", 122);
-        cm.print(ss.str(), 127);
-        cm.print("]", 122);
-        cm.print(" ", 135);
-        cm.print(it->second, 135);
+            cm.print("[", DarkWhite, Green);
+        cm.print(ss.str(), DarkWhite, White);
+        cm.print("]", DarkWhite, Green);
+        cm.print(" ", DarkBlack, Black);
+        cm.print(it->second, Black, DarkWhite);
         cm.print("\n", 0);
     }
 
@@ -81,14 +83,14 @@ void PrintCategories(map<int, string> &chosenCategories, map<int, string> &selec
         stringstream ss;
         ss << it->first;
         if (it->first < 10)
-            cm.print("[ ", 122);
+            cm.print("[ ",  DarkWhite, Green);
         else 
-            cm.print("[", 122);
-        cm.print(ss.str(), 127);
-        cm.print("]", 122);
-        cm.print(" ", 135);
-        cm.print(it->second, 135);
-        cm.print("\n", 0);
+            cm.print("[",  DarkWhite, Green);
+        cm.print(ss.str(), DarkWhite, White);
+        cm.print("]",  DarkWhite, Green);
+        cm.print(" ",  DarkBlack, Black);
+        cm.print(it->second, Black, DarkWhite);
+        cm.print("\n", DarkBlack);
     }
 }
 
@@ -99,7 +101,7 @@ bool is_number(const std::string& s)
     return !s.empty() && it == s.end();
 }
 
-int SelectChapters( QuizSession qs ) 
+int SelectChapters( QuizSession &qs, QuestionManager &qm ) 
 {
     Header();
 
@@ -114,9 +116,10 @@ int SelectChapters( QuizSession qs )
     string *res;
     while(true)
     {
+        Header();
         PrintCategories(chosenCategories, selectableCategories);
 
-        cm.print("Type number followed by enter to select a chapter:", 127);
+        cm.print("Type number followed by enter to select a chapter:", Black, DarkRed);
 
         res = cm.readLine();
 
@@ -155,35 +158,97 @@ int SelectChapters( QuizSession qs )
             }
             else if (res->compare("s"))
             {
+                for(auto it = chosenCategories.begin(); it != chosenCategories.end(); it++)
+                {
+                    qs.addQuestions(qm.getQuestionSet(it->first));
+                }
                 return 1;
             }
-            
         }
-
         delete res;
     }
 }
 
-void DoQuiz( QuizSession qs ) 
+void PrintScoreHeader() 
+{
+    Header();
+}
+
+AnswerSheet PrintQuestion( Question * q ) 
+{
+    cm.print("[", Green , DarkGreen);
+    cm.print(q->getCategory(), DarkGreen, Green);
+    cm.print("]\n", Green , DarkGreen);
+    cm.print(q->getQuestion(), Black, Blue);
+    cm.print("\n", Black, Blue);
+    cm.print("\n", Black, Blue);
+    
+    AnswerSheet answerSheet = q->shuffleOptions();
+    auto answer = answerSheet.first;
+    auto options = answerSheet.second;
+    int i = 0;
+    stringstream ss;
+    for(auto it = options.begin(); it != options.end(); it++)
+    {
+        ss << i++;
+        cm.print("[", 42);
+        cm.print(ss.str(), 58);
+        cm.print("]", 42);
+        cm.print(" ", 0);
+        cm.print(*it, 71);
+        cm.print("\n", 0);
+        ss.str(string());
+        ss.clear();
+    }
+
+    return answerSheet;
+}
+
+int AnswerQuestion( Question * q, AnswerSheet answerSheet ) 
+{
+    cm.print("Type the option number to answer this question: ", 135);
+    char res = cm.read();
+
+    // Return result! 
+    return res == answerSheet.first;
+}
+
+void DoQuiz( QuizSession &qs ) 
+{
+    Header();
+
+    //stringstream ss;
+    Question *q;
+    qs.startQuiz();
+    ScoreTable st;
+    while(qs.hasQuestions())
+    {
+        q = qs.nextQuestion();
+        cm.clearScreen();
+        PrintScoreHeader();
+        cm.print("Next question: \n", 138);
+        cm.print("\n", 136);
+        auto answerSheet = PrintQuestion(q);
+        st.push_back( AnswerQuestion(q, answerSheet) );
+    }
+}
+
+void PrintResult( QuizSession &qs ) 
 {
     throw std::exception("The method or operation is not implemented.");
 }
 
-void PrintResult( QuizSession qs ) 
-{
-    throw std::exception("The method or operation is not implemented.");
-}
-
-void RepeatQuizOrQuit( QuizSession qs ) 
+void RepeatQuizOrQuit( QuizSession &qs ) 
 {
     throw std::exception("The method or operation is not implemented.");
 }
 
 void NewSession() 
 {
+    Header();
     QuizSession qs;
     ReadQuestions(qs);
-    int res = SelectChapters(qs);
+    int res = SelectChapters(qs, qm);
     if (res == -1)
     {
         exit(0);
@@ -196,7 +261,18 @@ void NewSession()
     }
 }
 
+void binary(int number) {
+    int remainder;
 
+    if(number <= 1) {
+        cout << number;
+        return;
+    }
+
+    remainder = number%2;
+    binary(number >> 1);    
+    cout << remainder;
+}
 
 int main()
 {
@@ -218,6 +294,13 @@ int main()
 
     //cm.clearScreen();
 
+    //for (int i = 0; i < 255; i++)
+    //{
+    //    cout << i << ": ";
+    //    binary(i);
+    //    cout << "\n";
+    //}
+
     while (true)
     {
         char res = DrawMenu();
@@ -230,8 +313,9 @@ int main()
             NewSession();
         }
 
-        if (res == 1)
-            break;
+        if (res == '1')
+            exit(0);
     }
+    cin.get();
     return 0;
 }

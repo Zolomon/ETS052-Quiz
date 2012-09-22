@@ -6,16 +6,23 @@ using std::vector;
 
 namespace ETS052
 {
+    typedef vector<vector<Question *> > QuestionBank;
+    typedef vector<Question *> QuestionSet;
+    typedef vector<Question *>::iterator QuestionIterator;
+
 
 class QuizSession
 {
-	vector<vector<Question *> > mQuestions;
+	QuestionBank mQuestions;
+    QuestionSet mQuiz;
+    QuestionIterator mQuestionIterator;
+    QuestionIterator mQuestionEndIterator;
 public:
 	QuizSession();
 	~QuizSession();
 
 	void shuffleQuestions();
-	void addQuestions(vector<Question *> questions);
+	void addQuestions(QuestionSet questions);
 	Question *nextQuestion();
     vector<int> score();
 

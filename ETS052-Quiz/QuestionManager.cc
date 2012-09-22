@@ -19,7 +19,7 @@ namespace ETS052
 
     }
 
-    void QuestionManager::addQuestions(vector<Question *> question)
+    void QuestionManager::addQuestions(QuestionSet question)
     {
         mQuestions.push_back(question);
     }
@@ -29,7 +29,7 @@ namespace ETS052
         return mQuestions[id][0]->getCategory();
     }
 
-    vector<Question *> QuestionManager::getQuestionSet(int id)
+    QuestionSet QuestionManager::getQuestionSet(int id)
     {
         return mQuestions[id];
     }

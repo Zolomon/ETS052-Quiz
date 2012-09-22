@@ -1,4 +1,5 @@
 #include "Question.h"
+#include <algorithm>
 
 namespace ETS052
 {
@@ -62,13 +63,28 @@ namespace ETS052
         return mQuestion;
     }
 
-    vector<string> Question::getOptions()
+    OptionSet Question::getOptions()
     {
         return mOptions;
     }
 
-    pair<int, vector<string>> Question::shuffleOptions()
+    pair<int, OptionSet> Question::shuffleOptions()
     {
-        return make_pair(mAnswer, mOptions);
+        OptionSet os(mOptions.begin(), mOptions.end());
+
+        random_shuffle(os.begin(), os.end());
+
+        // Find the shuffled answer for this shuffle
+        int shuffledAnswer = 0;
+        string correctAnswer = mOptions[mAnswer];
+        for(int i = 0; i < os.size(); i++)
+        {
+            if (os[i].compare(correctAnswer)) {
+                shuffledAnswer = i;
+            }
+        }
+
+        return make_pair(shuffledAnswer, mOptions);
     }
+
 }

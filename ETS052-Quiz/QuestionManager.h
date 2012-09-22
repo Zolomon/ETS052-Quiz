@@ -3,6 +3,7 @@
 #include <vector>
 #include "Question.h"
 #include <string>
+#include "QuizSession.h"
 
 using std::vector;
 using std::string; 
@@ -11,7 +12,7 @@ namespace ETS052
 {
 class QuestionManager
 {
-	vector<vector<Question *>> mQuestions;
+	QuestionBank mQuestions;
 public:
 	QuestionManager();
 	~QuestionManager();
@@ -23,7 +24,7 @@ public:
 	//bool answer(string answer);
 	//void next();
 
-    void addQuestions(vector<Question *> question);
+    void addQuestions(QuestionSet question);
     vector<Question *> getQuestionSet(int id);
     string getCategory(int id);
 

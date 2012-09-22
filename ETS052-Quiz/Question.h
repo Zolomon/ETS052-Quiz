@@ -13,12 +13,15 @@ using std::pair;
 
 namespace ETS052
 {
+    typedef vector<string> OptionSet;
+    typedef pair<int, OptionSet> AnswerSheet;
+
     class Question
     {
         int mId;
         string mQuestion;
         int mAnswer;
-        vector<string> mOptions;
+        OptionSet mOptions;
         string mCategory;
     public:
         friend ostream& operator<< (ostream &out, const Question &rhs);
@@ -32,11 +35,12 @@ namespace ETS052
         void addOption(string option);
         void setAnswer(int index);
 
-        pair<int, vector<string>> shuffleOptions();
+        AnswerSheet shuffleOptions();
         string getCategory();
         string getQuestion();
-        vector<string> getOptions();
+        OptionSet getOptions();
         int getAnswer();
+        bool toString();
     };   
 }
 

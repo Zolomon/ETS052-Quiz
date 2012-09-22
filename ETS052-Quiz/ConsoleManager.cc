@@ -25,7 +25,7 @@ namespace ETS052
             exit(1);
         }
 
-        SetWindowPos(GetConsoleHwnd(), HWND_TOP, 2024,0,860, 512, 0);
+        SetWindowPos(GetConsoleHwnd(), HWND_TOP, 2024,0,860, 640, 0);
 
         // Save the current text colors. 
         if (! GetConsoleScreenBufferInfo(mHStdout, &mCsbiInfo)) 
@@ -206,6 +206,16 @@ namespace ETS052
     }
 #endif // _WIN32
 
+    void ConsoleManager::print(string output)
+    {
+        print(output, 8);
+    }
+
+    void ConsoleManager::print(string output, int bg, int fg)
+    {
+        int color = bg * 16 + fg;
+        print(output, color);
+    }
 
     void ConsoleManager::print(string output, int color)
     {
