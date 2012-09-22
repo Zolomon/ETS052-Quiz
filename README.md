@@ -6,22 +6,22 @@ A CLI Quiz application in C++ for the course ETS052 at LTH@Sweden
 Currently the application has minimal cross-platform support. 
 
 #### Menu
-![Menu](zolomon.github.com/ETS052-Quiz/imgs/menu.png)
+![Menu](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/menu.png?raw=true)
 
 #### Chapter Quiz Selection
-![Chapter Quiz Selection](zolomon.github.com/ETS052-Quiz/imgs/category selection.png)
+![Chapter Quiz Selection](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/category selection.png?raw=true)
 
 #### Selected a Chapter Quiz
-![Selected a Chapter Quiz](zolomon.github.com/ETS052-Quiz/imgs/chosen category.png)
+![Selected a Chapter Quiz](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/chosen category.png?raw=true)
 
 #### First Question
-![First Question](zolomon.github.com/ETS052-Quiz/imgs/fist question.png)
+![First Question](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/fist question.png?raw=true)
 
 #### Second Question
-![Second Question](zolomon.github.com/ETS052-Quiz/imgs/second question.png)
+![Second Question](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/second question.png?raw=true)
 
 #### A few Questions Later
-![A few Questions Later](zolomon.github.com/ETS052-Quiz/imgs/a few questions later.png)
+![A few Questions Later](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/a few questions later.png?raw=true)
 
 #### TODO:
 Create a an interface for ConsoleIO
