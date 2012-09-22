@@ -57,6 +57,7 @@ namespace ETS052
         void ScrollScreenBuffer(HANDLE h, INT x);
         HWND GetConsoleHwnd(void);
         void clearScreen();
+        int getBufferWidth();
 #endif
     };
 }

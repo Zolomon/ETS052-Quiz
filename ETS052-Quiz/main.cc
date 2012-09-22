@@ -20,9 +20,9 @@ typedef vector<int> ScoreTable;
 void Header() 
 {
     cm.clearScreen();
-    cm.print("         TEST          ", DarkBlack , Red);
-    cm.print(" ETS052 - Computer Communication ", 249);
-    cm.print("         TEST          ", Red, DarkBlack);
+    cm.print("--      Created by  -- ", Black , DarkRed);
+    cm.print(" ETS052 - Computer Communication ", DarkRed, Red);
+    cm.print(" --         Zol       --", Red, DarkBlack);
     cm.print("\n", 0);
 }
 
@@ -38,11 +38,28 @@ char DrawMenu()
     cm.print(" MENU ", DarkBlue, Green);
     cm.print("                       ", DarkBlue, DarkBlack); cm.print("\n", DarkBlack);
     cm.print("                       ", Black);
-    cm.print("[ 0 ] ", 10); cm.print("New Session", DarkBlack, DarkWhite); cm.print("\n", DarkBlack);
+    cm.print("[ 1 ] ", 10); cm.print("New Session", DarkBlack, DarkWhite); cm.print("\n", DarkBlack);
     cm.print("                       ", DarkBlack);
-    cm.print("[ 1 ] ", 10); cm.print("Quit", DarkBlack, DarkWhite); cm.print("\n", DarkBlack);
+    cm.print("[ 2 ] ", 10); cm.print("Quit", DarkBlack, DarkWhite); cm.print("\n", DarkBlack);
 
     return cm.read();
+}
+
+void PrintResult( ScoreTable *st )
+{
+    int width = cm.getBufferWidth();
+    int count = 0;
+    for (auto it = st->begin(); it != st->end(); it++)
+    {
+        if (*it)
+            cm.print(" ", Green, Green);
+        else
+            cm.print(" ", Red, Red);
+        if (count == width)
+            cm.print("\n");
+        count = (count + 1) % width;
+    }
+    cm.print("\n", DarkBlack, DarkBlack);
 }
 
 void ReadQuestions( QuizSession qs ) 
@@ -169,9 +186,10 @@ int SelectChapters( QuizSession &qs, QuestionManager &qm )
     }
 }
 
-void PrintScoreHeader() 
+void PrintScoreHeader(ScoreTable *st) 
 {
     Header();
+    PrintResult(st);
 }
 
 AnswerSheet PrintQuestion( Question * q ) 
@@ -182,21 +200,22 @@ AnswerSheet PrintQuestion( Question * q )
     cm.print(q->getQuestion(), Black, Blue);
     cm.print("\n", Black, Blue);
     cm.print("\n", Black, Blue);
-    
+
     AnswerSheet answerSheet = q->shuffleOptions();
     auto answer = answerSheet.first;
     auto options = answerSheet.second;
-    int i = 0;
+    int i = 1;
     stringstream ss;
     for(auto it = options.begin(); it != options.end(); it++)
     {
         ss << i++;
-        cm.print("[", 42);
-        cm.print(ss.str(), 58);
-        cm.print("]", 42);
-        cm.print(" ", 0);
-        cm.print(*it, 71);
-        cm.print("\n", 0);
+        cm.print("[", DarkGreen, Green);
+        cm.print(ss.str(), DarkCyan, Green);
+        cm.print("]", DarkGreen, Green);
+        cm.print(" ", DarkBlack);
+        cm.print(*it, DarkRed, DarkWhite);
+        cm.print(" ", DarkBlack);
+        cm.print("\n", DarkBlack);
         ss.str(string());
         ss.clear();
     }
@@ -206,12 +225,25 @@ AnswerSheet PrintQuestion( Question * q )
 
 int AnswerQuestion( Question * q, AnswerSheet answerSheet ) 
 {
-    cm.print("Type the option number to answer this question: ", 135);
-    char res = cm.read();
+    stringstream ss;   
 
-    // Return result! 
-    return res == answerSheet.first;
+    while(!is_number(ss.str()))
+    {
+        ss.str(string());
+        ss.clear();
+        cm.print("Type the option number to answer this question: ", Black, DarkRed);
+
+        char res = cm.read();
+        ss << res;
+
+        if (res == 'q')
+            exit(0);
+    }
+
+        return atoi(ss.str().c_str()) - 1 == answerSheet.first;
 }
+
+
 
 void DoQuiz( QuizSession &qs ) 
 {
@@ -221,22 +253,28 @@ void DoQuiz( QuizSession &qs )
     Question *q;
     qs.startQuiz();
     ScoreTable st;
+    string previousAnswer;
     while(qs.hasQuestions())
     {
-        q = qs.nextQuestion();
         cm.clearScreen();
-        PrintScoreHeader();
+
+        q = qs.nextQuestion();
+
+        PrintScoreHeader(&st);
+
+        cm.print("Previous answer was: ", DarkRed, Yellow);
+        cm.print(previousAnswer, Red, DarkRed);
+        cm.print("\n", DarkBlack);
+
         cm.print("Next question: \n", 138);
         cm.print("\n", 136);
         auto answerSheet = PrintQuestion(q);
+        previousAnswer = answerSheet.second[answerSheet.first];
         st.push_back( AnswerQuestion(q, answerSheet) );
     }
 }
 
-void PrintResult( QuizSession &qs ) 
-{
-    throw std::exception("The method or operation is not implemented.");
-}
+
 
 void RepeatQuizOrQuit( QuizSession &qs ) 
 {
@@ -256,7 +294,6 @@ void NewSession()
     else 
     {
         DoQuiz(qs);
-        PrintResult(qs);
         RepeatQuizOrQuit(qs);
     }
 }
@@ -309,11 +346,11 @@ int main()
         QuestionReader qr;
         qr.parseQuestions(&qm, "questions/1.txt");*/
 
-        if (res == '0') {
+        if (res == '1') {
             NewSession();
         }
 
-        if (res == '1')
+        if (res == '2')
             exit(0);
     }
     cin.get();

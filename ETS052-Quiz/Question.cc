@@ -79,12 +79,12 @@ namespace ETS052
         string correctAnswer = mOptions[mAnswer];
         for(int i = 0; i < os.size(); i++)
         {
-            if (os[i].compare(correctAnswer)) {
+            if (os[i].compare(correctAnswer) == 0) {
                 shuffledAnswer = i;
             }
         }
 
-        return make_pair(shuffledAnswer, mOptions);
+        return make_pair(shuffledAnswer, os);
     }
 
 }

@@ -353,4 +353,9 @@ namespace ETS052
         system("cls");
     }
 
+    int ConsoleManager::getBufferWidth()
+    {
+            return mCsbiInfo.dwSize.X;
+    }
+
 }
