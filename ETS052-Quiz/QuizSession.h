@@ -32,6 +32,7 @@ public:
     }
     void startQuiz();
     bool hasQuestions();
+    size_t numberOfQuestions();
 };
 
 }

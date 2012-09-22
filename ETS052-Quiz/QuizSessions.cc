@@ -61,5 +61,10 @@ namespace ETS052
          return mQuestionIterator != mQuestionEndIterator;
      }
 
+     size_t QuizSession::numberOfQuestions()
+     {
+         return mQuiz.size();
+     }
+
 
 }

@@ -45,20 +45,50 @@ char DrawMenu()
     return cm.read();
 }
 
-void PrintResult( ScoreTable *st )
+void PrintResult( ScoreTable *st, int &qIndex)
 {
     int width = cm.getBufferWidth();
-    int count = 0;
-    for (auto it = st->begin(); it != st->end(); it++)
+    int wLeft  = qIndex - (width/2);
+    int wRight = qIndex + (width/2);
+    if (wLeft < 0)
     {
-        if (*it)
-            cm.print(" ", Green, Green);
-        else
-            cm.print(" ", Red, Red);
-        if (count == width)
-            cm.print("\n");
-        count = (count + 1) % width;
+        wLeft = 0;
+        wRight = width;
     }
+    if (wRight > st->size())
+    {
+        wRight = st->size();
+        wLeft = st->size() - width;
+    }
+    if (st->size() > width)
+    {
+        // Draw sliding window
+        for (int i = wLeft; i < wRight; i++)
+        {
+            if ((*st)[i])
+                cm.print(" ", Green, Green);
+            else
+                cm.print(" ", Red, Red);
+        }
+    } else {
+        int counter = 0;
+        for (auto it = st->begin(); it != st->end(); it++)
+        {
+            if (counter > width)
+                break;
+            if (*it)
+                cm.print(" ", Green, Green);
+            else
+                cm.print(" ", Red, Red);
+            counter++;
+        }
+        // Draw rest as unanswered...
+        for (int i = qIndex; i < width; i++)
+        {
+            cm.print(" ", DarkWhite, DarkWhite);
+        }
+    }
+    
     cm.print("\n", DarkBlack, DarkBlack);
 }
 
@@ -186,10 +216,10 @@ int SelectChapters( QuizSession &qs, QuestionManager &qm )
     }
 }
 
-void PrintScoreHeader(ScoreTable *st) 
+void PrintScoreHeader(ScoreTable *st, int &qIndex) 
 {
     Header();
-    PrintResult(st);
+    PrintResult(st, qIndex);
 }
 
 AnswerSheet PrintQuestion( Question * q ) 
@@ -252,16 +282,18 @@ void DoQuiz( QuizSession &qs )
     //stringstream ss;
     Question *q;
     qs.startQuiz();
-    ScoreTable st;
+    ScoreTable st(qs.numberOfQuestions());
     string previousAnswer;
     int correctAnswer = 0;
+    size_t correctCount = 0;
+    int questionIndex = 0;
     while(qs.hasQuestions())
     {
         cm.clearScreen();
 
         q = qs.nextQuestion();
 
-        PrintScoreHeader(&st);
+        PrintScoreHeader(&st, questionIndex);
 
         cm.print("Previous answer was: ", DarkRed, Yellow);
         if (!correctAnswer)
@@ -275,31 +307,73 @@ void DoQuiz( QuizSession &qs )
         auto answerSheet = PrintQuestion(q);
         previousAnswer = answerSheet.second[answerSheet.first];
         correctAnswer = AnswerQuestion(q, answerSheet);
-        st.push_back( correctAnswer );
+        if (correctAnswer)
+            correctCount++;
+        st[questionIndex] = correctAnswer ;
+        questionIndex++;
+    }
+
+    PrintScoreHeader(&st, questionIndex);
+
+    cm.print("\n", DarkBlack);
+    cm.print("\n", DarkBlack);
+    cm.print("\n", DarkBlack);
+    cm.print("You completed:", DarkRed, Red);
+    cm.print(" ", DarkBlack);
+    stringstream ss;
+    ss << correctCount;
+    cm.print(ss.str(), Black, Yellow);
+    cm.print(" ", DarkBlack);
+    cm.print("questions!", DarkRed, Red);
+
+    if (correctCount != st.size())
+    {
+        cm.print("\n", DarkBlack);
+        cm.print("Too bad you failed: ", Red, DarkRed);
+        cm.print(" ", DarkBlack);
+        ss.str(string());
+        ss.clear();
+        ss << st.size()-correctCount;
+        cm.print(ss.str(), Black, Yellow);
+        cm.print(" ", DarkBlack);
+        cm.print("questions!", Red, DarkRed);
     }
 }
 
 
 
-void RepeatQuizOrQuit( QuizSession &qs ) 
+bool RepeatQuizOrQuit( QuizSession &qs ) 
 {
-    throw std::exception("The method or operation is not implemented.");
+    cm.print("Do you want to repeat? (y/n): ");
+    char res = cm.read();
+
+    while(res != 'y' || res != 'n')
+    {
+        cm.print("\nDo you want to repeat? (y/n): ");
+        res = cm.read();
+    }
+
+    return res == 'y';
 }
 
 void NewSession() 
 {
-    Header();
-    QuizSession qs;
-    ReadQuestions(qs);
-    int res = SelectChapters(qs, qm);
-    if (res == -1)
+    bool repeat = true;
+    while(repeat)
     {
-        exit(0);
-    }
-    else 
-    {
-        DoQuiz(qs);
-        RepeatQuizOrQuit(qs);
+        Header();
+        QuizSession qs;
+        ReadQuestions(qs);
+        int res = SelectChapters(qs, qm);
+        if (res == -1)
+        {
+            exit(0);
+        }
+        else 
+        {
+            DoQuiz(qs);
+            repeat = RepeatQuizOrQuit(qs);
+        }
     }
 }
 
