@@ -15,7 +15,7 @@ Currently the application has minimal cross-platform support.
 ![Selected a Chapter Quiz](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/chosen category.png?raw=true)
 
 #### First Question
-![First Question](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/fist question.png?raw=true)
+![First Question](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/first question.png?raw=true)
 
 #### Second Question
 ![Second Question](https://github.com/Zolomon/ETS052-Quiz/blob/master/imgs/second question.png?raw=true)
