@@ -447,15 +447,17 @@ Security in the Internet: IPSec, SSL/TLS, PGP, VPN, and Firewalls
 						
 						
 						
-33	UNANSWERED		In _____, there can be multiple paths from fully or partially trusted authorities.			
+33	INCORRECT		In _____, there can be multiple paths from fully or partially trusted authorities.			
 						
 					A)	X509
 						
-					B)	PGP
+			correct		B)	PGP
 						
 					C)	KDC
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -468,3 +470,7 @@ Security in the Internet: IPSec, SSL/TLS, PGP, VPN, and Firewalls
 					C)	KDC
 						
 					D)	none of the above
+						
+						
+						
+						

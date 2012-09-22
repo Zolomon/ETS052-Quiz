@@ -111,9 +111,9 @@ Network Models
 						
 						
 						
-9	UNANSWERED		The _______ layer changes bits into electromagnetic signals.			
+9	INCORRECT		The _______ layer changes bits into electromagnetic signals.			
 						
-					A)	Physical
+			correct		A)	Physical
 						
 					B)	Data link
 						
@@ -123,6 +123,8 @@ Network Models
 						
 						
 						
+						
+
 10	INCORRECT		Which of the following is an application layer service?			
 						
 					A)	Remote log-in
@@ -179,15 +181,17 @@ Network Models
 						
 						
 						
-14	UNANSWERED		The OSI model consists of _______ layers.			
+14	INCORRECT		The OSI model consists of _______ layers.			
 						
 					A)	three
 						
 					B)	five
 						
-					C)	seven
+			correct		C)	seven
 						
 					D)	eight
+						
+						
 						
 						
 						
@@ -662,3 +666,8 @@ Network Models
 			correct		C)	port
 						
 					D)	specific
+						
+						
+						
+						
+						

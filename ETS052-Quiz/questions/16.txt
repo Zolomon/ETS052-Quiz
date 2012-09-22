@@ -125,15 +125,17 @@ Wireless WANs: Cellular Telephone and Satellite Networks
 						
 						
 						
-10	UNANSWERED		AMPS operates in the ISM _____ band.			
+10	CORRECT		AMPS operates in the ISM _____ band.			
 						
-					A)	800-MHz
+			correct		A)	800-MHz
 						
 					B)	900-MHz
 						
 					C)	1800-MHz
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -179,7 +181,7 @@ Wireless WANs: Cellular Telephone and Satellite Networks
 						
 						
 						
-14	UNANSWERED		D-AMPS uses ______ to divide each 25-MHz band into channels.			
+14	CORRECT		D-AMPS uses ______ to divide each 25-MHz band into channels.			
 						
 					A)	FDMA
 						
@@ -187,19 +189,23 @@ Wireless WANs: Cellular Telephone and Satellite Networks
 						
 					C)	CDMA
 						
-					D)	both (a) and (b)
+			correct		D)	both (a) and (b)
 						
 						
 						
-15	UNANSWERED		GSM allows a reuse factor of _______.			
+						
+						
+15	CORRECT		GSM allows a reuse factor of _______.			
 						
 					A)	1
 						
-					B)	3
+			correct		B)	3
 						
 					C)	5
 						
 					D)	7
+						
+						
 						
 						
 						
@@ -520,6 +526,8 @@ Wireless WANs: Cellular Telephone and Satellite Networks
 			correct		C)	Teledesic
 						
 					D)	none of the above
+						
+						
 						
 						
 						

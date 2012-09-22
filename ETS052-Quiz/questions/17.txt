@@ -27,27 +27,31 @@ SONET/SDH
 						
 						
 						
-3	UNANSWERED		SONET has defined a hierarchy of signals called ________.			
+3	INCORRECT		SONET has defined a hierarchy of signals called ________.			
 						
-					A)	STSs
-						
-					B)	STMs
-						
-					C)	either (a) or (b)
-						
-					D)	neither (a) nor (b)
-						
-						
-						
-4	UNANSWERED		SDH has defined a hierarchy of signals called ________.			
-						
-					A)	STSs
+			correct		A)	STSs
 						
 					B)	STMs
 						
 					C)	either (a) or (b)
 						
 					D)	neither (a) nor (b)
+						
+						
+						
+						
+						
+4	INCORRECT		SDH has defined a hierarchy of signals called ________.			
+						
+					A)	STSs
+						
+			correct		B)	STMs
+						
+					C)	either (a) or (b)
+						
+					D)	neither (a) nor (b)
+						
+						
 						
 						
 						
@@ -135,15 +139,17 @@ SONET/SDH
 						
 						
 						
-11	UNANSWERED		An STS-1 frame is made of ________ rows			
+11	INCORRECT		An STS-1 frame is made of ________ rows			
 						
 					A)	1
 						
-					B)	9
+			correct		B)	9
 						
 					C)	90
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -534,6 +540,8 @@ SONET/SDH
 			correct		C)	one-to-many
 						
 					D)	none of the above
+						
+						
 						
 						
 						

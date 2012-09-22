@@ -52,4 +52,23 @@ namespace ETS052
         mOptions.push_back(option);
     }
 
+    string Question::getCategory()
+    {
+        return mCategory;
+    }
+
+    string Question::getQuestion()
+    {
+        return mQuestion;
+    }
+
+    vector<string> Question::getOptions()
+    {
+        return mOptions;
+    }
+
+    pair<int, vector<string>> Question::shuffleOptions()
+    {
+        return make_pair(mAnswer, mOptions);
+    }
 }

@@ -27,15 +27,17 @@ Process-to-Process Delivery: UDP, TCP, and SCTP
 						
 						
 						
-3	UNANSWERED		UDP does not add anything to the services of IP except for providing _______ communication.			
+3	INCORRECT		UDP does not add anything to the services of IP except for providing _______ communication.			
 						
 					A)	node-to-node
 						
-					B)	process-to-process
+			correct		B)	process-to-process
 						
 					C)	host-to-host
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -179,15 +181,17 @@ Process-to-Process Delivery: UDP, TCP, and SCTP
 						
 						
 						
-14	UNANSWERED		A port address in UDP is _______bits long.			
+14	CORRECT		A port address in UDP is _______bits long.			
 						
 					A)	8
 						
-					B)	16
+			correct		B)	16
 						
 					C)	32
 						
 					D)	any of the above
+						
+						
 						
 						
 						
@@ -256,6 +260,8 @@ Process-to-Process Delivery: UDP, TCP, and SCTP
 					C)	frames
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -357,15 +363,17 @@ Process-to-Process Delivery: UDP, TCP, and SCTP
 						
 						
 						
-27	UNANSWERED		TCP groups a number of bytes together into a packet called a ___________.			
+27	INCORRECT		TCP groups a number of bytes together into a packet called a ___________.			
 						
 					A)	user datagram
 						
-					B)	segment
+			correct		B)	segment
 						
 					C)	datagram
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -439,15 +447,17 @@ Process-to-Process Delivery: UDP, TCP, and SCTP
 						
 						
 						
-33	UNANSWERED		Communication in TCP is ___________.			
+33	CORRECT		Communication in TCP is ___________.			
 						
 					A)	simplex
 						
 					B)	half-duplex
 						
-					C)	full-duplex
+			correct		C)	full-duplex
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -474,6 +484,8 @@ Process-to-Process Delivery: UDP, TCP, and SCTP
 					C)	cumulative
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -631,15 +643,17 @@ Process-to-Process Delivery: UDP, TCP, and SCTP
 						
 						
 						
-47	UNANSWERED		In TCP, one end can stop sending data while still receiving data. This is called a ______.			
+47	INCORRECT		In TCP, one end can stop sending data while still receiving data. This is called a ______.			
 						
-					A)	half-close
+			correct		A)	half-close
 						
 					B)	half-open
 						
 					C)	one-way termination
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -1058,6 +1072,8 @@ Process-to-Process Delivery: UDP, TCP, and SCTP
 					C)	transmission
 						
 					D)	none of the above
+						
+						
 						
 						
 						

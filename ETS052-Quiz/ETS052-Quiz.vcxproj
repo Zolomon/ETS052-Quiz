@@ -10,6 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <Target Name="CopyFiles">
+    <Copy SourceFiles="%(OutputPath)\..\questions\" DestinationFolder="$(OutputPath)" />
+  </Target>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A6F99414-9FFC-4B3C-B004-9E694857E995}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -79,12 +82,14 @@
     <ClCompile Include="Question.cc" />
     <ClCompile Include="QuestionManager.cc" />
     <ClCompile Include="QuestionReader.cc" />
+    <ClCompile Include="QuizSessions.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleManager.h" />
     <ClInclude Include="Question.h" />
     <ClInclude Include="QuestionManager.h" />
     <ClInclude Include="QuestionReader.h" />
+    <ClInclude Include="QuizSession.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

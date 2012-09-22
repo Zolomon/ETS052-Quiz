@@ -41,7 +41,7 @@ Network Layer: Internet Protocol
 						
 						
 						
-4	UNANSWERED		In IPv4, what is the length of the data field given an HLEN value of 12 and total length value of 40,000?			
+4	CORRECT		In IPv4, what is the length of the data field given an HLEN value of 12 and total length value of 40,000?			
 						
 					A)	39,988
 						
@@ -49,7 +49,9 @@ Network Layer: Internet Protocol
 						
 					C)	40,048
 						
-					D)	39,952
+			correct		D)	39,952
+						
+						
 						
 						
 						
@@ -193,15 +195,17 @@ td>			correct		A)	is 20 to 60 bytes long
 						
 						
 						
-15	UNANSWERED		In IPv4, which field or bit value unambiguously identifies the datagram as a fragment?			
+15	INCORRECT		In IPv4, which field or bit value unambiguously identifies the datagram as a fragment?			
 						
 					A)	Do not fragmentÿbit ? 0
 						
 					B)	More Fragmentÿbit ? 0
 						
-					C)	Fragment offset = 1000
+			correct		C)	Fragment offset = 1000
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -298,6 +302,8 @@ td>			correct		A)	is 20 to 60 bytes long
 					C)	hop limit
 						
 					D)	destination IP address
+						
+						
 						
 						
 						

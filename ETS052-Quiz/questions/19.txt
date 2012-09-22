@@ -55,15 +55,17 @@ Network Layer: Logical Addressing
 						
 						
 						
-5	UNANSWERED		Identify the class of the following IPv4 address: 191.1.2.3.			
+5	INCORRECT		Identify the class of the following IPv4 address: 191.1.2.3.			
 						
 					A)	A
 						
-					B)	B
+			correct		B)	B
 						
 					C)	C
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -748,6 +750,8 @@ Network Layer: Logical Addressing
 					C)	mapped
 						
 					D)	none of the above
+						
+						
 						
 						
 						

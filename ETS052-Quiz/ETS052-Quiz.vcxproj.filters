@@ -30,6 +30,9 @@
     <ClCompile Include="Question.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QuizSessions.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleManager.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="QuestionReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuizSession.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

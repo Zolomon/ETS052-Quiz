@@ -2,13 +2,16 @@
 
 #include <vector>
 #include "Question.h"
+#include <string>
 
 using std::vector;
+using std::string; 
+
 namespace ETS052
 {
 class QuestionManager
 {
-	vector<Question> mQuestions;
+	vector<vector<Question *>> mQuestions;
 public:
 	QuestionManager();
 	~QuestionManager();
@@ -20,8 +23,10 @@ public:
 	//bool answer(string answer);
 	//void next();
 
-    void addQuestion(Question *question);
-    void clearQuestions();
+    void addQuestions(vector<Question *> question);
+    vector<Question *> getQuestionSet(int id);
+    string getCategory(int id);
+
 protected:
 	
 private:

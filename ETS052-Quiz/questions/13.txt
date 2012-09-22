@@ -447,15 +447,17 @@ Wired LANs: Ethernet
 						
 						
 						
-33	UNANSWERED		______defines a protocol data unit (PDU) that is somewhat similar to that of HDLC.			
+33	INCORRECT		______defines a protocol data unit (PDU) that is somewhat similar to that of HDLC.			
 						
 					A)	MAC
 						
-					B)	LLC
+			correct		B)	LLC
 						
 					C)	LLU
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -580,6 +582,8 @@ Wired LANs: Ethernet
 					C)	MLT-3
 						
 					D)	Manchester
+						
+						
 						
 						
 						

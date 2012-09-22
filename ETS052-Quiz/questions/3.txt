@@ -470,3 +470,8 @@ Data and Signals
 			correct		C)	bandwidth-delay
 						
 					D)	delay-amplitude
+											
+						
+						
+						
+						

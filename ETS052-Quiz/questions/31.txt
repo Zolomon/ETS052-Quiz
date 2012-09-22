@@ -27,15 +27,17 @@ Network Security
 						
 						
 						
-3	UNANSWERED		Message _______ means that the receiver is ensured that the message is coming from the intended sender, not an imposter.			
+3	INCORRECT		Message _______ means that the receiver is ensured that the message is coming from the intended sender, not an imposter.			
 						
 					A)	confidentiality
 						
 					B)	integrity
 						
-					C)	authentication
+			correct		C)	authentication
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -53,15 +55,17 @@ Network Security
 						
 						
 						
-5	UNANSWERED		________ means to prove the identity of the entity that tries to access the system's resources.			
+5	INCORRECT		________ means to prove the identity of the entity that tries to access the system's resources.			
 						
 					A)	Message authentication
 						
-					B)	Entity authentication
+			correct		B)	Entity authentication
 						
 					C)	Message confidentiality
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -396,6 +400,8 @@ Network Security
 			correct		C)	strong-collision-resistance
 						
 					D)	none of the above
+						
+						
 						
 						
 						

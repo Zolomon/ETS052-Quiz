@@ -26,12 +26,14 @@ namespace ETS052
         ~ConsoleManager();
 
         void print(string output, int color);
-        int read(void);
+        char read();
+        string *readLine();
 
 #ifdef _WIN32
         void NewLine(void);
         void ScrollScreenBuffer(HANDLE h, INT x);
         HWND GetConsoleHwnd(void);
+        void clearScreen();
 #endif
     };
 }

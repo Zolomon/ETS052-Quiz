@@ -41,7 +41,7 @@ namespace ETS052
         }
     }
 
-    void QuestionReader::parseQuestions(QuestionManager *bank, string path)
+    void QuestionReader::parseQuestions(int id, QuestionManager *cm, string path)
     {
         ifstream file;
         file.open(path);
@@ -50,6 +50,8 @@ namespace ETS052
         string title;
         string question;
         string option;
+        string garbage;
+        vector<Question *> questions;
         if (file.is_open())
         {
             if (!file.eof())
@@ -59,55 +61,63 @@ namespace ETS052
             }
             while(!file.eof())
             {
-                cout << "Reading question: " << count++ << endl;
-                Question q;
-                q.setCategory(title);
+                //cout << "Reading question: " << count++ << endl;
+                Question *q = new Question();
+                q->setCategory(title);
                 getline(file, question);
-
+                
                 replace(question, "\tINCORRECT\t\t", "  ");
                 replace(question, "\tCORRECT\t\t", "  ");
 
-                cout << "Question read: "<< question << endl;
+                //cout << "Question read: "<< question << endl;
 
-                q.setId(count);
+                q->setId(count);
 
                 question.replace(0,3, "");
                 replaceAll(question, "\t", "");
 
-                cout << "Question read: \""<< question << "\"" << endl;
-                q.setQuestion(question);
+                //cout << "Question read: \""<< question << "\"" << endl;
+                q->setQuestion(question);
+
+                getline(file, garbage);
+
                 for (int j = 0; j < 4; j++)
                 {
                     getline(file, option);
+                    //cout << "Option read: "<< option << endl;
                     
-                   while(option.find("\t\t\t\t\t\t") != string::npos)
-                    {
-                        getline(file, option);
-                    }
-
-                    cout << "Option read: "<< option << endl;
                     if (option.find("\t\t\tcorrect\t\t") != string::npos)
                     {
-                            q.setAnswer(j);
-                            cout << "Correct answer: " << j << endl;
+                            q->setAnswer(j);
+                            //cout << "Correct answer: " << j << endl;
                             replace(option, "\t\t\tcorrect\t\t", "");
                     }
 
                     replace(option, "\t\t\t\t\t", "");
-                    cout << "Option read: " << option.c_str() << endl;                   
+                    if (option.size() >= 6)
+                        option = option.substr(3,option.size()-3);
+                    else if (option.size() == 5)
+                        option = option.substr(3,option.size()-2);
+                    else if (option.size() == 4)
+                        option = option.substr(3,option.size()-1);
+                    else
+                        cout << "BREAK" << endl;
+                    //cout << "Option read: " << option.c_str() << endl;                   
 
-                    q.addOption(option);
+                    q->addOption(option);
+
+                    getline(file, garbage);
                 }
 
-                while(option.find("\t\t\t\t\t\t") != string::npos)
-                {
-                    getline(file, line);
-                }
-                
-                cout << endl << endl << q << endl;
-                //mBank->addQuestion();      
-                break;
+                getline(file, garbage);
+                getline(file, garbage);
+                getline(file, garbage);
+                getline(file, garbage);
+
+                //cout << endl << endl << q << endl;
+                questions.push_back(q);
             }
+            cm->addQuestions(questions);
         }
 
         file.close();

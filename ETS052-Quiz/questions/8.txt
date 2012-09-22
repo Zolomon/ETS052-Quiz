@@ -111,15 +111,17 @@ Switching
 						
 						
 						
-9	UNANSWERED		In __________, each packet is treated independently of all others.			
+9	CORRECT		In __________, each packet is treated independently of all others.			
 						
-					A)	datagram switching
+			correct		A)	datagram switching
 						
 					B)	circuit switching
 						
 					C)	frame switching
 						
 					D)	none of the above
+						
+						
 						
 						
 						
@@ -412,3 +414,8 @@ Switching
 					C)	local
 						
 					D)	none of the above
+						
+						
+						
+						
+						
