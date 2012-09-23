@@ -67,14 +67,21 @@ void PrintResult( ScoreTable *st, int &qIndex)
         {
             if ((*st)[i])
                 cm.print(" ", Green, Green);
-            else
-                cm.print(" ", Red, Red);
+            else 
+            {
+                if (i == qIndex+1) { 
+                    cm.print(" ", Black, DarkRed);
+                } else if (i > qIndex + 1) {
+                    cm.print(" ", DarkRed, DarkRed);
+                } else
+                    cm.print(" ", Red, Red);
+            }
         }
     } else {
         int counter = 0;
         for (auto it = st->begin(); it != st->end(); it++)
         {
-            if (counter > width)
+            if (counter > qIndex)
                 break;
             if (*it)
                 cm.print(" ", Green, Green);
@@ -82,10 +89,12 @@ void PrintResult( ScoreTable *st, int &qIndex)
                 cm.print(" ", Red, Red);
             counter++;
         }
+        // Draw marker for current question
+        cm.print(" ", Black, DarkRed);
         // Draw rest as unanswered...
-        for (int i = qIndex; i < width; i++)
+        for (int i = qIndex+1; i < width-qIndex; i++)
         {
-            cm.print(" ", DarkWhite, DarkWhite);
+            cm.print(" ", DarkRed, DarkRed);
         }
     }
     
@@ -227,7 +236,7 @@ AnswerSheet PrintQuestion( Question * q )
     cm.print("[", Green , DarkGreen);
     cm.print(q->getCategory(), DarkGreen, Green);
     cm.print("]\n", Green , DarkGreen);
-    cm.print(q->getQuestion(), Black, Blue);
+    cm.print(q->getQuestion(), Black, Yellow);
     cm.print("\n", Black, Blue);
     cm.print("\n", Black, Blue);
 
